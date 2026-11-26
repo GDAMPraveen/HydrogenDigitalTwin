@@ -1,0 +1,49 @@
+Pressure_Regime,Variable_1,Variable_2,Pearson_Correlation
+H2 negative only,H-P1,PS-I-MON,-0.7301729471419997
+H2 negative only,O-P1,PS-I-MON,0.20692455107014168
+H2 negative only,H-P1,H-P1,1.0
+H2 negative only,O-P1,H-P1,0.03979173077088085
+H2 negative only,H-P1,O-P1,0.03979173077088085
+H2 negative only,O-P1,O-P1,1.0
+H2 negative only,H-P1,Pressure_Difference_H2_minus_O2,-0.024218954274181033
+H2 negative only,O-P1,Pressure_Difference_H2_minus_O2,-0.9998786199738928
+H2 negative only,H-P1,T-ELY-CH1,-0.4896453438221347
+H2 negative only,O-P1,T-ELY-CH1,0.7212847898495487
+H2 negative only,H-P1,CV-mean,-0.5668155006398888
+H2 negative only,O-P1,CV-mean,0.6232992567850181
+Both non-negative,H-P1,PS-I-MON,0.19463142491172622
+Both non-negative,O-P1,PS-I-MON,0.20861303219170446
+Both non-negative,H-P1,H-P1,1.0
+Both non-negative,O-P1,H-P1,0.9965430507987878
+Both non-negative,H-P1,O-P1,0.9965430507987878
+Both non-negative,O-P1,O-P1,1.0
+Both non-negative,H-P1,Pressure_Difference_H2_minus_O2,-0.4103423725867064
+Both non-negative,O-P1,Pressure_Difference_H2_minus_O2,-0.4846852545794095
+Both non-negative,H-P1,T-ELY-CH1,0.8416593017490015
+Both non-negative,O-P1,T-ELY-CH1,0.8494753407117119
+Both non-negative,H-P1,CV-mean,0.3076679214233745
+Both non-negative,O-P1,CV-mean,0.3067377217285869
+Both negative,H-P1,PS-I-MON,0.17550551288051505
+Both negative,O-P1,PS-I-MON,0.11250395585145603
+Both negative,H-P1,H-P1,1.0
+Both negative,O-P1,H-P1,0.8511429879266561
+Both negative,H-P1,O-P1,0.8511429879266561
+Both negative,O-P1,O-P1,1.0
+Both negative,H-P1,Pressure_Difference_H2_minus_O2,-0.5433944754739398
+Both negative,O-P1,Pressure_Difference_H2_minus_O2,-0.9031765982350582
+Both negative,H-P1,T-ELY-CH1,-0.20932950782520912
+Both negative,O-P1,T-ELY-CH1,-0.05962021707711575
+Both negative,H-P1,CV-mean,-0.4784204054648488
+Both negative,O-P1,CV-mean,-0.547525047499277
+O2 negative only,H-P1,PS-I-MON,-0.02650718450831452
+O2 negative only,O-P1,PS-I-MON,-0.11891689193719666
+O2 negative only,H-P1,H-P1,1.0
+O2 negative only,O-P1,H-P1,0.9953799058070869
+O2 negative only,H-P1,O-P1,0.9953799058070869
+O2 negative only,O-P1,O-P1,1.0
+O2 negative only,H-P1,Pressure_Difference_H2_minus_O2,0.9997082758044448
+O2 negative only,O-P1,Pressure_Difference_H2_minus_O2,0.9927704919681914
+O2 negative only,H-P1,T-ELY-CH1,-0.9831617951534732
+O2 negative only,O-P1,T-ELY-CH1,-0.9745592903318565
+O2 negative only,H-P1,CV-mean,0.9663234130067592
+O2 negative only,O-P1,CV-mean,0.9546455279054578

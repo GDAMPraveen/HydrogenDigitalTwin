@@ -1,0 +1,32 @@
+Feature,Data_Type,Missing_Count,Missing_Percentage,Unique_Values
+system_id,int64,0,0.0,1860
+system_public_name,object,0,0.0,1860
+site_location,object,240,12.8894,1070
+timezone_or_utc_offset,object,0,0.0,17
+latitude,float64,0,0.0,1468
+longitude,float64,0,0.0,1463
+elevation_m,float64,0,0.0,1243
+dc_capacity_kW,float64,65,3.4909,824
+kg_climate,object,240,12.8894,17
+pvcz_composite,int64,0,0.0,16
+pvcz_t_rack,int64,0,0.0,6
+pvcz_t_roof,int64,0,0.0,7
+pvcz_humidity,int64,0,0.0,4
+pvcz_wind,int64,0,0.0,5
+tracking,object,241,12.9431,2
+type,object,241,12.9431,7
+azimuth,float64,241,12.9431,34
+tilt,float64,290,15.5747,97
+first_timestamp,object,2,0.1074,1726
+last_timestamp,object,2,0.1074,1052
+years,float64,2,0.1074,1348
+number_records,float64,2,0.1074,1855
+dataset_size_mb,float64,2,0.1074,1459
+available_sensor_channels,int64,0,0.0,86
+qa_status,object,0,0.0,2
+qa_issue,object,1403,75.3491,24
+Unnamed: 26,float64,1862,100.0,0
+Unnamed: 27,float64,1862,100.0,0
+Unnamed: 28,float64,1862,100.0,0
+Unnamed: 29,float64,1862,100.0,0
+Unnamed: 30,float64,1862,100.0,0

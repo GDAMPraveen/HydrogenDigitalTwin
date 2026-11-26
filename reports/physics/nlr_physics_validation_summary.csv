@@ -1,0 +1,2 @@
+rows,mean_reported_power_kW,mean_VI_power_kW,mean_absolute_power_error_kW,mean_measured_flow_kg_hr,mean_calculated_rate,flow_rate_correlation
+18000,639.0458333333333,627.470616658611,11.581690835722224,12.073022777777778,12.300040666666666,0.9975809750076277

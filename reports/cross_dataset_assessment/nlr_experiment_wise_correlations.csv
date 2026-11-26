@@ -1,0 +1,40 @@
+Experiment,Feature,Correlation,Valid_Observations
+characterization_200.csv,H2E_f_PSU_A_Current,0.9984173368576001,17828
+characterization_200.csv,Power Supply Average Voltage (Vdc),0.99782847438238,17828
+characterization_200.csv,H2E_f_PT264_Pressure,0.9882771332796773,17828
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PSU_A_Current,0.9634298395557939,3652
+windIEA3.4-5ms-A_2-200.csv,Power Supply Average Voltage (Vdc),0.9591079307135072,3652
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PT264_Pressure,0.9347321333607138,3652
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PSU_A_Current,0.9625708687556,3652
+windIEA3.4-5ms-A_2-400.csv,Power Supply Average Voltage (Vdc),0.9579394813423946,3652
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PT264_Pressure,0.9487272439552075,3652
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PSU_A_Current,0.9551672526631609,3652
+windIEA3.4-5ms-C_2-200.csv,Power Supply Average Voltage (Vdc),0.9495998987707254,3652
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PT264_Pressure,0.8925394026145891,3652
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PSU_A_Current,0.9575537027683069,3652
+windIEA3.4-5ms-C_2-400.csv,Power Supply Average Voltage (Vdc),0.9530765318215529,3652
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PT264_Pressure,0.9324773863516077,3652
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PSU_A_Current,0.944518127666511,3591
+windIEA3.4-7ms-A_1-200.csv,Power Supply Average Voltage (Vdc),0.939603513780197,3591
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PT264_Pressure,0.9348787059540596,3591
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PSU_A_Current,0.9462936936586689,3591
+windIEA3.4-7ms-A_1-400.csv,Power Supply Average Voltage (Vdc),0.9405591828888907,3591
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PT264_Pressure,0.9400360420503471,3591
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PSU_A_Current,0.9391771499717556,3591
+windIEA3.4-7ms-C_1-200.csv,Power Supply Average Voltage (Vdc),0.9326573609497537,3591
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PT264_Pressure,0.9094805695517346,3591
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PSU_A_Current,0.9300377417429712,3591
+windIEA3.4-7ms-C_1-400.csv,Power Supply Average Voltage (Vdc),0.9239158954218062,3591
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PT264_Pressure,0.9443758788642563,3591
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PSU_A_Current,0.9278902369579375,3591
+windIEA3.4-9ms-A_1-200.csv,Power Supply Average Voltage (Vdc),0.9223107061101393,3591
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PT264_Pressure,0.940963855588964,3591
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PSU_A_Current,0.9378580363873781,3508
+windIEA3.4-9ms-A_1-400.csv,Power Supply Average Voltage (Vdc),0.9328647143907577,3508
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PT264_Pressure,0.9439254311029137,3508
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PSU_A_Current,0.9285748788237306,3591
+windIEA3.4-9ms-C_1-200.csv,Power Supply Average Voltage (Vdc),0.921571452890403,3591
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PT264_Pressure,0.9501120490942243,3591
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PSU_A_Current,0.8829098311625264,3591
+windIEA3.4-9ms-C_1-400.csv,Power Supply Average Voltage (Vdc),0.8777927612834291,3591
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PT264_Pressure,0.9026923028524808,3591

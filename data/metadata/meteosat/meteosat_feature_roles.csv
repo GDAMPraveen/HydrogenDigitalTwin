@@ -1,0 +1,15 @@
+Feature,Category,Proposed_Role
+GHI,Solar,Primary target / predictor depending on task
+DNI,Solar,Candidate predictor
+DHI,Solar,Candidate predictor
+Temperature,Weather,Candidate predictor
+Wind Speed,Weather,Candidate predictor
+Relative Humidity,Weather,Candidate predictor
+Pressure,Weather,Candidate predictor
+Solar Zenith Angle,Solar Geometry,Candidate predictor
+Month,Temporal,Seasonality candidate
+Hour,Temporal,Time-of-day candidate
+Timestamp,Temporal,Ordering and alignment only
+Year,Temporal,Timestamp construction
+Day,Temporal,Timestamp construction
+Minute,Temporal,Timestamp construction

@@ -1,0 +1,11 @@
+Metric,Value
+Total observations,35040
+Original measurement columns,13
+Missing cells,0
+Duplicate rows,0
+Infinite numeric values,0
+Unique timestamps,35040
+Chronological ordering,True
+Sampling interval,15 minutes
+Start timestamp,2017-01-01 00:00:00
+End timestamp,2017-12-31 23:45:00

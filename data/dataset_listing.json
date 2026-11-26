@@ -1,0 +1,82 @@
+[
+  {
+    "name": "README.md",
+    "path": "dataset/README.md",
+    "sha": "e0ec8fd00bd4e784c58f0932ac46281abdd7bc6d",
+    "size": 4280,
+    "url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/README.md?ref=main",
+    "html_url": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/README.md",
+    "git_url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/e0ec8fd00bd4e784c58f0932ac46281abdd7bc6d",
+    "download_url": "https://raw.githubusercontent.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/main/dataset/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/README.md?ref=main",
+      "git": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/e0ec8fd00bd4e784c58f0932ac46281abdd7bc6d",
+      "html": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/README.md"
+    }
+  },
+  {
+    "name": "extract_data.py",
+    "path": "dataset/extract_data.py",
+    "sha": "ba14e3753b60e0af6d7114bf7b1bee85d47f1f51",
+    "size": 3917,
+    "url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/extract_data.py?ref=main",
+    "html_url": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/extract_data.py",
+    "git_url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/ba14e3753b60e0af6d7114bf7b1bee85d47f1f51",
+    "download_url": "https://raw.githubusercontent.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/main/dataset/extract_data.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/extract_data.py?ref=main",
+      "git": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/ba14e3753b60e0af6d7114bf7b1bee85d47f1f51",
+      "html": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/extract_data.py"
+    }
+  },
+  {
+    "name": "test2_subset.csv",
+    "path": "dataset/test2_subset.csv",
+    "sha": "857403132a86092bc25dd14d0c54735eda9d09ed",
+    "size": 1625679,
+    "url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/test2_subset.csv?ref=main",
+    "html_url": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/test2_subset.csv",
+    "git_url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/857403132a86092bc25dd14d0c54735eda9d09ed",
+    "download_url": "https://raw.githubusercontent.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/main/dataset/test2_subset.csv",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/test2_subset.csv?ref=main",
+      "git": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/857403132a86092bc25dd14d0c54735eda9d09ed",
+      "html": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/test2_subset.csv"
+    }
+  },
+  {
+    "name": "test3_subset.csv",
+    "path": "dataset/test3_subset.csv",
+    "sha": "83905bbaed87d6f6066df727bed6c63042e06627",
+    "size": 1492930,
+    "url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/test3_subset.csv?ref=main",
+    "html_url": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/test3_subset.csv",
+    "git_url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/83905bbaed87d6f6066df727bed6c63042e06627",
+    "download_url": "https://raw.githubusercontent.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/main/dataset/test3_subset.csv",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/test3_subset.csv?ref=main",
+      "git": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/83905bbaed87d6f6066df727bed6c63042e06627",
+      "html": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/test3_subset.csv"
+    }
+  },
+  {
+    "name": "test4_subset.csv",
+    "path": "dataset/test4_subset.csv",
+    "sha": "5642c969914a1feb241623965770ba5c0a34e893",
+    "size": 7959775,
+    "url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/test4_subset.csv?ref=main",
+    "html_url": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/test4_subset.csv",
+    "git_url": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/5642c969914a1feb241623965770ba5c0a34e893",
+    "download_url": "https://raw.githubusercontent.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/main/dataset/test4_subset.csv",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/contents/dataset/test4_subset.csv?ref=main",
+      "git": "https://api.github.com/repos/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/git/blobs/5642c969914a1feb241623965770ba5c0a34e893",
+      "html": "https://github.com/NAICNO/wp7-UC2-pem-electrolyzer-digital-twin/blob/main/dataset/test4_subset.csv"
+    }
+  }
+]

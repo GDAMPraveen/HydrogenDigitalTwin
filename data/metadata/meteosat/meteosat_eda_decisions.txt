@@ -1,0 +1,47 @@
+
+METEOSAT — EDA AND PREPROCESSING DECISIONS
+
+Dataset:
+Bengaluru, 2017
+Observations: 35,040
+Sampling interval: 15 minutes
+
+MISSING VALUES:
+- No missing values identified.
+- No imputation required.
+
+DATA INTEGRITY:
+- No duplicate observations.
+- Chronological ordering verified.
+- Complete 15-minute timestamp sequence.
+- Original observations preserved.
+
+SENSOR QUALITY:
+- Nighttime zero irradiance values retained.
+- No negative irradiance values.
+- IQR outliers retained.
+- No automatic sensor-fault classification.
+
+FEATURE AND TARGET SUITABILITY:
+- GHI: potential solar irradiance target.
+- DNI and DHI: candidate solar variables.
+- Temperature, wind speed, humidity and pressure:
+  candidate meteorological predictors.
+- Solar Zenith Angle: solar geometry predictor.
+- Month and Hour: temporal feature candidates.
+- Timestamp: temporal ordering and alignment only.
+- Estimated_GHI and GHI_Residual: diagnostic-only variables.
+
+MODELLING:
+- No feature scaling performed.
+- No observations removed.
+- Forecasting must respect information available at
+  the forecast origin.
+- Contemporaneous DNI/DHI must not be used carelessly
+  to predict GHI because of their physical relationship.
+- Chronological 70/15/15 split is a preliminary proposal.
+
+INTEGRATION:
+- Dataset does not directly measure hydrogen production
+  or renewable electricity generation.
+- Cross-year integration with NLR requires justification.

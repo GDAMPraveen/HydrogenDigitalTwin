@@ -1,0 +1,49 @@
+NORCE DATASET — EDA AND PREPROCESSING DECISION RECORD
+
+DATASETS
+- TEST2: 32,401 rows, 5 original columns
+- TEST3: 36,000 rows, 5 original columns
+- TEST4: 198,001 rows, 5 original columns
+
+EDA STATUS
+- Stage 1: Missing-value assessment completed.
+- Stage 2: Data-integrity assessment completed.
+- Stage 3: Exploratory sensor-quality assessment completed.
+- Stage 4: Exploratory feature and target assessment completed.
+- Stage 5: Preprocessing readiness assessment completed.
+
+PRESERVATION POLICY
+- Original datasets remain unchanged.
+- All observations and source row order are preserved.
+- Missing values remain missing.
+- Duplicate observations are retained.
+- Negative readings and statistical extremes are retained.
+- No blanket interpolation or automatic outlier removal.
+- Source_Row_Index is added for traceability.
+
+FEATURE DECISIONS
+- PS-I-MON: candidate predictor.
+- H-P1: candidate predictor.
+- O-P1: candidate predictor.
+- T-ELY-CH1: candidate predictor.
+- CV-mean: potential target, pending definition and unit verification.
+- H-P1 minus O-P1: optional derived candidate only.
+- Source_Row_Index: metadata, not a predictor.
+
+UNRESOLVED LIMITATIONS
+1. Sensor definitions and measurement units are unavailable.
+2. CV-mean physical meaning and calculation dependency are unverified.
+3. Timestamp and sampling interval are unavailable.
+4. Experiment/run identifiers are unavailable.
+5. Acquisition conditions and comparability between TEST2, TEST3
+   and TEST4 are not confirmed.
+6. Physical operating limits cannot yet be validated.
+
+MODELLING RESTRICTIONS
+- Do not interpret row-based shifts as time-based forecasting horizons.
+- Do not use random splitting without investigating temporal dependence.
+- Do not claim experiment-aware validation is possible.
+- Do not approve CV-mean as a final target until its definition is verified.
+- Perform cross-dataset compatibility assessment before model development.
+
+END OF RECORD

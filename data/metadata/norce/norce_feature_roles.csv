@@ -1,0 +1,8 @@
+Feature,Proposed_Role,Decision,Reason
+PS-I-MON,Candidate predictor,Retain,Current-related measurement; physical definition and unit require confirmation.
+H-P1,Candidate predictor,Retain,Pressure-related measurement; retain separately.
+O-P1,Candidate predictor,Retain,Pressure-related measurement; retain separately.
+T-ELY-CH1,Candidate predictor,Retain,Temperature-related measurement; physical limits require documentation.
+CV-mean,Potential target,Pending verification,"Definition, units and calculation dependency are unverified."
+H-P1 - O-P1,Optional derived predictor,Candidate only,Derived pressure difference; physical interpretation and sign convention require verification.
+Source_Row_Index,Traceability metadata,Exclude from predictors,Preserves source row position; not a verified timestamp.

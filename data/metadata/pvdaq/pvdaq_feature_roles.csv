@@ -1,0 +1,27 @@
+Feature,Description,Role,Modelling_Notes
+system_id,System identifier,Grouping / traceability,Use for system grouping and traceability; never as a numerical predictor.
+system_public_name,Public system name,Identification only,Catalogue metadata only; not an actual PV measurement feature.
+site_location,Installation location,Geographic metadata,Catalogue metadata only; not an actual PV measurement feature.
+timezone_or_utc_offset,Timezone or UTC offset,Temporal alignment,Catalogue metadata only; not an actual PV measurement feature.
+latitude,Latitude,Geographic metadata,Catalogue metadata only; not an actual PV measurement feature.
+longitude,Longitude,Geographic metadata,Catalogue metadata only; not an actual PV measurement feature.
+elevation_m,Elevation in metres,Geographic metadata,Catalogue metadata only; not an actual PV measurement feature.
+dc_capacity_kW,DC system capacity,System characteristic / normalization,Inspect extreme values; do not remove systems solely by magnitude.
+kg_climate,Climate classification,Environmental metadata,Catalogue metadata only; not an actual PV measurement feature.
+pvcz_composite,Composite PV climate zone,Climate classification,Catalogue metadata only; not an actual PV measurement feature.
+pvcz_t_rack,Rack temperature climate zone,Climate classification,Catalogue metadata only; not an actual PV measurement feature.
+pvcz_t_roof,Roof temperature climate zone,Climate classification,Catalogue metadata only; not an actual PV measurement feature.
+pvcz_humidity,Humidity climate zone,Climate classification,Catalogue metadata only; not an actual PV measurement feature.
+pvcz_wind,Wind climate zone,Climate classification,Catalogue metadata only; not an actual PV measurement feature.
+tracking,Tracking configuration,System configuration,Catalogue metadata only; not an actual PV measurement feature.
+type,PV installation type,System configuration,Catalogue metadata only; not an actual PV measurement feature.
+azimuth,Panel azimuth,Panel orientation,Value -1 is a probable unknown sentinel; verify before transformation.
+tilt,Panel tilt,Panel orientation,Catalogue metadata only; not an actual PV measurement feature.
+first_timestamp,First available timestamp,Data coverage metadata,Catalogue metadata only; not an actual PV measurement feature.
+last_timestamp,Last available timestamp,Data coverage metadata,Catalogue metadata only; not an actual PV measurement feature.
+years,Reported coverage duration,Data coverage metadata,Catalogue metadata only; not an actual PV measurement feature.
+number_records,Number of records,Catalogue metadata,Catalogue metadata only; not an actual PV measurement feature.
+dataset_size_mb,Dataset size in MB,Catalogue metadata,Catalogue metadata only; not an actual PV measurement feature.
+available_sensor_channels,Available sensor channels,Data-access metadata,Catalogue metadata only; not an actual PV measurement feature.
+qa_status,Quality assessment status,Quality screening,Catalogue metadata only; not an actual PV measurement feature.
+qa_issue,Quality assessment issue,Quality screening,Catalogue metadata only; not an actual PV measurement feature.

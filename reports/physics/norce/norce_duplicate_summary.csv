@@ -1,0 +1,4 @@
+dataset,total_rows,duplicate_rows_after_first,rows_in_duplicate_groups,consecutive_repeated_rows,unique_measurement_rows
+test2,32401,193,247,49,32208
+test3,36000,328,352,21,35672
+test4,198001,61,122,60,197940

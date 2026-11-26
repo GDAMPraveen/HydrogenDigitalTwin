@@ -1,0 +1,2 @@
+startup_observations,first_timestamp,last_timestamp,mean_measured_flow_kg_hr,mean_calculated_rate,mean_absolute_flow_rate_error,mean_absolute_power_error_kW
+25,2025-07-11 10:44:28,2025-07-11 10:46:28,20.8646,21.22876,1.0640000000000003,27.990518760000032

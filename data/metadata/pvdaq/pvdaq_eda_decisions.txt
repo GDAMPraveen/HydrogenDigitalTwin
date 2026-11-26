@@ -1,0 +1,88 @@
+
+PVDAQ SYSTEM CATALOGUE — EDA SUMMARY
+
+DATASET
+-------
+Original file: systems_20250729.csv
+Original dimensions: 1862 rows x 31 columns
+Dataset type: PV system catalogue
+Not an actual PV measurement time series.
+
+STAGE 1 — MISSING VALUES
+-----------------------
+Missing catalogue metadata was preserved.
+No blanket imputation was performed.
+Five completely empty export columns were excluded
+from the processed analytical copy.
+Original source file remains unchanged.
+
+STAGE 2 — DATA INTEGRITY
+-----------------------
+Exact duplicate rows: 0
+Unique system IDs: 1860
+Duplicated system IDs: 2
+Invalid timestamp pairs: 2
+Future timestamp anomaly: 1
+No automatic duplicate removal was performed.
+
+STAGE 3 — DATA QUALITY
+----------------------
+Negative elevation values were retained.
+Azimuth -1 was identified as a probable unknown sentinel.
+Extreme capacity and channel counts were flagged for review.
+QA status and QA issue were retained separately.
+No outlier deletion was performed.
+
+STAGE 4 — FEATURE AND TARGET SUITABILITY
+---------------------------------------
+System identifiers are for grouping and traceability.
+Geographic, climate and configuration fields are metadata.
+Capacity is a system characteristic.
+Coverage and QA fields are screening metadata.
+
+No actual PV power or energy target was found.
+No measurement-level timestamp series was present.
+The catalogue cannot independently train a PV generation model.
+
+STAGE 5 — PREPROCESSING READINESS
+---------------------------------
+Preliminary candidate systems: 1558.
+Candidate screening used:
+- Valid timestamp boundaries
+- At least one year reported coverage
+- Known positive DC capacity
+- Unique system ID
+- QA pass
+
+These are preliminary catalogue-selection criteria,
+not confirmation of accessible measurement data.
+
+VISUAL EDA
+----------
+1. DC capacity is strongly right-skewed.
+2. Most systems have relatively low DC capacity.
+3. Most reported coverage durations are approximately
+   4 to 10 years.
+4. QA-passed systems substantially outnumber failed systems.
+5. Most systems cluster at low capacity and moderate
+   historical coverage.
+6. No obvious strong linear relationship between capacity
+   and coverage duration was observed.
+
+FINAL LIMITATIONS
+-----------------
+Actual PV power/energy measurements are not included.
+Actual measurement timestamps are not included.
+Sampling intervals are unknown.
+Sensor-channel definitions require verification.
+Timezone normalization requires actual measurement data.
+Cross-dataset temporal alignment remains pending.
+
+FINAL DECISION
+--------------
+The catalogue is suitable for PV system discovery and
+preliminary system selection.
+
+It is not a modelling-ready PV generation dataset.
+
+Original data was preserved.

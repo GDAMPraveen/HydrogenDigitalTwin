@@ -1,0 +1,38 @@
+# Python & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Trained Models (exceeds GitHub 100MB limit)
+models/**/*.joblib
+models/*.joblib
+models/validation_predictions.csv
+
+# Datasets & Heavy Prediction CSVs
+data/nlr/
+data/norce/
+data/processed/
+data/pvdaq/
+data/solar/
+data/benchmark/
+data/*.csv
+data/figures/
+data/*.png
+
+# Large Auto-Generated Reports & Code Dumps
+catboost_info/
+PROJECT_AUDIT_REPORT.txt
+HydrogenDigitalTwin_Phase2_All_Code.txt
+reports/physics/all_physics_source_code.txt
+reports/physics/*observations*.csv
+reports/physics/nlr_electrical_validation.csv
+reports/physics/nlr_power_consistency.csv
+reports/physics/nlr_production_rate_validation.csv
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,7 @@
+Readiness_Criterion,Eligible_Systems,Total_Systems,Percentage
+Valid_Timestamps,1860,1862,99.89
+Adequate_Coverage,1842,1862,98.93
+Known_Capacity,1797,1862,96.51
+Unique_System_ID,1858,1862,99.79
+QA_Pass,1564,1862,84.0
+Preliminary_Candidate,1558,1862,83.67

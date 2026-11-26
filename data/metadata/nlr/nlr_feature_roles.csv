@@ -1,0 +1,39 @@
+Feature,Role,Real_Time_Estimation,Future_Forecasting,Treatment
+H2E_f_NLR_CurrentCmd (A),Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_NLR_CurrentCmd,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+Power Supply Average Voltage (Vdc),Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_n_PSU_A_Power,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_PSU_A_Current,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_CG220_LFLPer,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_DPS340_DPdegC,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_DPS341_DPdegC,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_DPS341_DPppmV,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_LS201_H2OLevel,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_LS301_H2OLevel,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_PT264_Pressure,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_PT307_Pressure,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_PT312_Pressure,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_PT604_Pressure,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_RS209_Resistivity,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_RS507_Resistivity,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TE218_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TE219_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TE338_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TE601_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TT645_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TT646_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+H2E_f_TT647_Temp,Common sensor,Candidate input,Historical lagged input,Retain; no missing values detected
+Wind Turbine Power (kW),Conditional sensor,Evaluate separately,Evaluate separately using historical values,Structurally unavailable in characterization
+H2E_f_TT641_Temp,Conditional sensor,Evaluate separately,Evaluate separately using historical values,Structurally unavailable in four 9 m/s experiments
+IVAL_f_FM011_Flow,Prediction target,Target,Future target; historical lagged input,Preserve measured flow
+H2E_f_Elec_CalcProdRate,Leakage-sensitive,Exclude initially,Exclude initially,Calculation dependency unverified
+Efficiency (kWh/kg),Leakage-sensitive,Exclude initially,Exclude initially,Calculation dependency unverified
+Experiment,Experiment identifier,Grouping and validation only,Grouping and validation only,Do not use as ordinary predictor
+Parsed_Timestamp,Temporal metadata,Ordering only,Ordering and lag construction,Do not use as ordinary predictor
+Samples_Per_Minute,Quality metadata,Not applicable,Quality metadata only,Not an ordinary predictor
+Unnamed: 31,Unknown source variable,Exclude,Exclude,Meaning and units unknown
+Flow_Category,Target-derived diagnostic,Exclude,Exclude,Direct target leakage
+Current_Range,Derived diagnostic,Exclude initially,Exclude initially,Derived from current
+Extreme_Efficiency_Flag,Derived diagnostic,Exclude,Exclude,Derived from efficiency
+Flow_Was_Interpolated,Data-quality flag,Quality tracking,Quality tracking,Retain for traceability; not an ordinary predictor
+Original_Row_Index,Traceability,Exclude,Exclude,Preserve for source-row tracking

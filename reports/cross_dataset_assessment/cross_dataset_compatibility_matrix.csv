@@ -1,0 +1,8 @@
+Dataset_Pair,Status,Reason
+NLR Observation - NLR Minute,DIRECT,Same underlying NLR experiments and matching timestamps; different aggregation levels.
+NLR - NORCE,CONDITIONAL,"Both concern electrolyzer operation, but NORCE timestamps, location and variable definitions are unverified."
+NLR - METEOSAT,NOT CURRENTLY JOINABLE,No calendar overlap: NLR is from 2025 and METEOSAT is from 2017. NLR location is unverified.
+NLR - PVDAQ,NOT CURRENTLY JOINABLE,PVDAQ is a system catalogue without measurement-level generation records.
+NORCE - METEOSAT,NOT CURRENTLY JOINABLE,NORCE temporal and spatial correspondence has not been established.
+METEOSAT - PVDAQ,CONDITIONAL,Requires a relevant PVDAQ site near Bengaluru and actual PV measurement data.
+NORCE TEST2 - TEST3 - TEST4,CONDITIONAL,"Shared variable names, but experiment comparability and measurement definitions remain unverified."

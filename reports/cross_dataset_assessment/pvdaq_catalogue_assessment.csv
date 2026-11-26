@@ -1,0 +1,5 @@
+Assessment,Result,Interpretation
+Catalogue records,1862,"System catalogue records, not actual PV measurement observations."
+Unique system IDs,1860,Two system IDs are duplicated in the catalogue.
+PV generation target available,No,No verified power or energy generation target is present.
+Measurement timestamps available,No,Only first and last coverage timestamps are provided.

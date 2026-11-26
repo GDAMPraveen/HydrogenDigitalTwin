@@ -1,0 +1,2 @@
+total_rows,duplicate_timestamps,median_interval_seconds,minimum_interval_seconds,maximum_interval_seconds,one_second_intervals
+18000,0,1.0,1.0,1.0,17999

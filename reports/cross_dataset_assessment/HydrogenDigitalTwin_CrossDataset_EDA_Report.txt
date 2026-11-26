@@ -1,0 +1,126 @@
+
+HYDROGEN DIGITAL TWIN
+CROSS-DATASET EDA AND INTEGRATION READINESS REPORT
+==================================================
+
+PURPOSE
+-------
+This report consolidates the exploratory data analysis and
+cross-dataset compatibility assessment completed in Notebook 5.
+
+No model training or cross-dataset merging was performed.
+
+DATASETS
+--------
+1. NLR: Wind-powered PEM electrolyzer observations and minute-level
+   aggregates from 13 experiments.
+2. NORCE: TEST2, TEST3 and TEST4 electrolyzer research datasets.
+3. METEOSAT: Bengaluru meteorological and solar irradiance data
+   covering calendar year 2017 at 15-minute intervals.
+4. PVDAQ: Photovoltaic system catalogue, not actual PV generation
+   measurements.
+
+NLR FINDINGS
+------------
+- NLR is the primary modelling dataset at this stage.
+- Real-time hydrogen flow estimation is a candidate task.
+- Future hydrogen flow forecasting is also a candidate task,
+  subject to valid forecast-origin and lag construction.
+- PSU current, supply voltage and PT264 pressure show strong
+  positive experiment-wise correlations with hydrogen flow.
+- Across all 13 experiments:
+  PSU current correlation range: 0.883 to 0.998.
+  Supply voltage correlation range: 0.878 to 0.998.
+  PT264 pressure correlation range: 0.893 to 0.988.
+- Scatter plots show strong electrical relationships and
+  experiment-dependent pressure clusters.
+- Highly correlated electrical features are retained provisionally.
+- Experiment-aware validation is required.
+- No exact 1 Hz sampling claim is justified because timestamps
+  have minute-level precision.
+
+NORCE FINDINGS
+--------------
+- TEST2, TEST3 and TEST4 have different CV-mean distributions.
+- TEST2 has a broad, multimodal distribution.
+- TEST3 and TEST4 have concentrated high-value regions and
+  lower-value observations.
+- CV-mean remains a potential target only.
+- Physical meaning, units and calculation dependencies are
+  unverified.
+- No verified timestamps, sampling interval or experiment IDs.
+- Keep all three datasets separate.
+- Preserve missing values, repeated observations and negative
+  measurements pending documentation.
+
+METEOSAT FINDINGS
+-----------------
+- 35,040 observations cover 2017 at 15-minute intervals.
+- 17,660 observations have Solar Zenith Angle below 90 degrees.
+- Daytime mean irradiance:
+  GHI: 433.588
+  DNI: 339.150
+  DHI: 199.499
+- Daytime Pearson correlations:
+  GHI-DNI: 0.749
+  GHI-DHI: 0.533
+  DNI-DHI: -0.081
+- Nighttime zeros influence full-year pooled correlations.
+- Contemporaneous DNI and DHI must not be used as future GHI
+  predictors unless they are genuinely available at forecast origin.
+- METEOSAT 2017 does not overlap NLR 2025.
+- Keep METEOSAT separate pending overlapping weather observations
+  and site relevance verification.
+
+PVDAQ FINDINGS
+--------------
+- PVDAQ file is a system catalogue, not a generation time series.
+- No verified PV power or energy target is available.
+- No measurement-level timestamps or sampling interval.
+- Catalogue may support future system discovery and metadata
+  selection, but not PV generation model training in its current form.
+- Extreme catalogue values and QA flags must be interpreted
+  cautiously; do not automatically remove records.
+
+CROSS-DATASET COMPATIBILITY
+---------------------------
+- NLR observation and NLR minute: DIRECT compatibility.
+- NLR and NORCE: CONDITIONAL.
+- NLR and METEOSAT: NOT CURRENTLY JOINABLE.
+- NLR and PVDAQ: NOT CURRENTLY JOINABLE.
+- NORCE and METEOSAT: NOT CURRENTLY JOINABLE.
+- METEOSAT and PVDAQ: CONDITIONAL.
+- NORCE TEST2/TEST3/TEST4: CONDITIONAL.
+
+INTEGRATION READINESS
+---------------------
+NLR:
+Primary modelling dataset. Verify physical units and retain
+experiment identity for validation.
+
+NORCE:
+Keep separate until variable definitions, units, timestamps
+and experiment metadata are obtained.
+
+METEOSAT:
+Keep separate. Obtain weather data overlapping the NLR period
+and verify geographical relevance.
+
+PVDAQ:
+Catalogue reference only. Obtain actual measurement records
+before considering PV generation modelling.
+
+SCIENTIFIC AND DATA GOVERNANCE DECISIONS
+----------------------------------------
+- Original datasets remain preserved.
+- No automatic outlier deletion.
+- No unsupported missing-value interpolation.
+- No unsupported sensor-unit conversions.
+- No unverified temporal or spatial joins.
+- No target leakage from contemporaneous or derived variables.
+- No model training was performed during this assessment.
+
+STATUS
+------
+Cross-dataset EDA, visual analysis and initial integration-readiness
+assessment are documented. Dataset integration is not yet approved.

@@ -1,0 +1,56 @@
+
+METEOSAT — VISUAL EDA FINDINGS
+
+1. SOLAR IRRADIANCE TIME SERIES
+- Repeating daily solar cycle observed.
+- GHI, DNI and DHI fall to zero at night.
+- Seasonal variation is visible.
+- A substantial irradiance reduction occurs around
+  January 26–27.
+- No missing timestamps were identified in the full dataset.
+- February 10 had only one observation in the inspected
+  January 20–February 10 interval.
+
+2. MONTHLY SOLAR TRENDS
+- GHI is relatively high from February to April.
+- DNI reaches its highest monthly mean in February.
+- DNI declines substantially during July and August.
+- DHI increases during June–September.
+- Pattern is consistent with seasonal changes in
+  direct and diffuse solar conditions.
+
+3. IRRADIANCE DISTRIBUTIONS
+- Large zero-value concentrations correspond to nighttime.
+- GHI and DHI zero percentage: 50.38%.
+- DNI zero percentage: 57.64%.
+- Irradiance distributions are zero-inflated and
+  non-normal overall.
+- Nighttime zeros are valid observations.
+
+4. METEOROLOGICAL DISTRIBUTIONS
+- Temperature is approximately bell-shaped with
+  some right skew.
+- Wind speed is positively skewed.
+- Relative humidity has a concentration at 100%.
+- Pressure has a discrete, narrow distribution.
+
+5. SENSOR CORRELATION HEATMAP
+- GHI-DNI: approximately +0.845.
+- GHI-DHI: approximately +0.758.
+- GHI-Temperature: approximately +0.702.
+- GHI-Solar Zenith Angle: approximately -0.817.
+- Temperature-Relative Humidity: approximately -0.790.
+- Feature redundancy and target leakage must be considered.
+
+6. DAYTIME VS NIGHTTIME
+- Nighttime irradiance values are zero.
+- Daytime mean temperature: 26.62 degrees C.
+- Nighttime mean temperature: 20.17 degrees C.
+- Daytime mean wind speed: 3.17 m/s.
+- Nighttime mean wind speed: 2.11 m/s.
+- Daytime median relative humidity: 59.92%.
+- Nighttime median relative humidity: 95.36%.
+
+INTERPRETATION:
+These are observational findings. They do not independently
+establish causal mechanisms or prove sensor faults.

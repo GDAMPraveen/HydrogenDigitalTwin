@@ -1,0 +1,1288 @@
+HYDROGEN DIGITAL TWIN — PROJECT INVENTORY
+=================================================================
+Project root: C:\Users\PRAVEEN\HydrogenDigitalTwin
+Generated: 2026-11-26T07:55:47
+Files discovered: 294
+
+1. GIT STATUS
+-----------------------------------------------------------------
+(No Git status output)
+
+Recent commits:
+(No commits found)
+
+2. COMPLETE FILE INVENTORY
+-----------------------------------------------------------------
+app.py | 0 bytes | modified 2026-10-26 11:37
+catboost_info\catboost_training.json | 24,806 bytes | modified 2026-10-27 16:05
+catboost_info\learn\events.out.tfevents | 12,120 bytes | modified 2026-10-27 16:05
+catboost_info\learn_error.tsv | 4,514 bytes | modified 2026-10-27 16:05
+catboost_info\time_left.tsv | 3,262 bytes | modified 2026-10-27 16:05
+data\audit_summary.csv | 284 bytes | modified 2026-10-26 11:55
+data\benchmark\figures\top_models_validation_diagnostics.png | 152,723 bytes | modified 2026-10-26 12:59
+data\benchmark\final_200_validation_rows.csv | 28,973 bytes | modified 2026-10-26 13:06
+data\benchmark\linear_ridge_temporal_test2\current_regime_metrics.csv | 1,595 bytes | modified 2026-10-30 15:54
+data\benchmark\linear_ridge_temporal_test2\model_metrics.csv | 568 bytes | modified 2026-10-30 15:54
+data\benchmark\linear_ridge_temporal_test2\persistence_comparison.csv | 379 bytes | modified 2026-10-30 15:59
+data\benchmark\linear_ridge_temporal_test2\persistence_regime_comparison.csv | 1,237 bytes | modified 2026-10-30 15:59
+data\benchmark\linear_ridge_temporal_test2\predictions.csv | 13,159,836 bytes | modified 2026-10-30 15:54
+data\benchmark\model_comparison.csv | 2,093 bytes | modified 2026-10-26 12:56
+data\benchmark\temporal_experiment\exploratory_phase_summary.csv | 438 bytes | modified 2026-10-27 14:17
+data\benchmark\temporal_experiment\feature_ablation.csv | 174 bytes | modified 2026-10-27 15:29
+data\benchmark\temporal_experiment\figures\candidate_shutdown_transition.png | 130,512 bytes | modified 2026-10-27 14:17
+data\benchmark\temporal_experiment\low_current_distribution_comparison.csv | 1,238 bytes | modified 2026-10-27 15:31
+data\benchmark\temporal_experiment\metrics.csv | 638 bytes | modified 2026-10-27 12:44
+data\benchmark\temporal_experiment\ood\low_current_regime_analysis.csv | 594 bytes | modified 2026-10-27 15:20
+data\benchmark\temporal_experiment\ood\low_current_timeline.csv | 1,293 bytes | modified 2026-10-27 15:21
+data\benchmark\temporal_experiment\ood\risk_by_current.csv | 457 bytes | modified 2026-10-27 15:18
+data\benchmark\temporal_experiment\ood\risk_by_current_temperature.csv | 1,083 bytes | modified 2026-10-27 15:18
+data\benchmark\temporal_experiment\ood\risk_by_temperature.csv | 655 bytes | modified 2026-10-27 15:18
+data\benchmark\temporal_experiment\ood\risk_overall.csv | 159 bytes | modified 2026-10-27 15:18
+data\benchmark\temporal_experiment\ood\temporal_ood_metrics.csv | 641 bytes | modified 2026-10-27 15:38
+data\benchmark\temporal_experiment\ood\temporal_ood_predictions.csv | 8,167,658 bytes | modified 2026-10-27 15:38
+data\benchmark\temporal_experiment\operating_region_error_metrics.csv | 1,196 bytes | modified 2026-10-27 14:10
+data\benchmark\temporal_experiment\test2_model_comparison\test2_metrics.csv | 998 bytes | modified 2026-10-27 16:01
+data\benchmark\temporal_experiment\test2_model_comparison\test2_predictions.csv | 4,798,635 bytes | modified 2026-10-27 16:01
+data\benchmark\temporal_experiment\validation_predictions.csv | 4,197,176 bytes | modified 2026-10-27 12:44
+data\benchmark\test2_model_comparison\test2_metrics.csv | 6,165 bytes | modified 2026-10-27 16:05
+data\benchmark\test2_model_comparison\test2_predictions.csv | 25,886,809 bytes | modified 2026-10-27 16:05
+data\benchmark\top_models_diagnostic_metrics.csv | 322 bytes | modified 2026-10-26 12:59
+data\benchmark\top_models_validation_predictions.csv | 5,771,175 bytes | modified 2026-10-26 12:59
+data\dataset_listing.json | 5,506 bytes | modified 2026-10-26 11:45
+data\dataset_README.md | 4,280 bytes | modified 2026-10-26 11:50
+data\figures\baseline_error_diagnostics.png | 88,860 bytes | modified 2026-10-26 12:10
+data\figures\baseline_prediction_scatter.png | 69,912 bytes | modified 2026-10-26 12:09
+data\figures\test2_subset_timeseries.png | 171,021 bytes | modified 2026-10-26 11:58
+data\figures\test3_subset_timeseries.png | 166,825 bytes | modified 2026-10-26 11:58
+data\figures\test4_subset_timeseries.png | 174,673 bytes | modified 2026-10-26 11:58
+data\low_current_nearest_matches.csv | 1,838,479 bytes | modified 2026-10-27 15:33
+data\metadata\meteosat\meteosat_data_quality_report.csv | 280 bytes | modified 2026-11-02 19:11
+data\metadata\meteosat\meteosat_eda_decisions.txt | 1,414 bytes | modified 2026-11-02 19:11
+data\metadata\meteosat\meteosat_feature_roles.csv | 594 bytes | modified 2026-11-02 19:11
+data\metadata\meteosat\meteosat_visual_eda_findings.txt | 1,970 bytes | modified 2026-11-02 19:11
+data\metadata\nlr\nlr_feature_roles.csv | 4,188 bytes | modified 2026-11-02 19:11
+data\metadata\norce\norce_data_quality_report.csv | 283 bytes | modified 2026-11-02 19:11
+data\metadata\norce\norce_eda_decisions.txt | 1,937 bytes | modified 2026-11-02 19:11
+data\metadata\norce\norce_feature_roles.csv | 803 bytes | modified 2026-11-02 19:11
+data\metadata\pvdaq\pvdaq_data_quality_report.csv | 1,052 bytes | modified 2026-11-02 19:11
+data\metadata\pvdaq\pvdaq_eda_decisions.txt | 2,739 bytes | modified 2026-11-02 19:11
+data\metadata\pvdaq\pvdaq_feature_roles.csv | 3,139 bytes | modified 2026-11-02 19:11
+data\metadata\pvdaq\pvdaq_selection_readiness.csv | 254 bytes | modified 2026-11-02 19:11
+data\nlr\audit\nlr_audit_summary.json | 1,388 bytes | modified 2026-10-31 16:31
+data\nlr\audit\nlr_column_types.csv | 916 bytes | modified 2026-10-31 16:31
+data\nlr\audit\nlr_experiment_counts.csv | 450 bytes | modified 2026-10-31 16:31
+data\nlr\audit\nlr_missing_values.csv | 134 bytes | modified 2026-10-31 16:31
+data\nlr\combined_wind_experiments.csv | 13,942,830 bytes | modified 2026-10-30 16:32
+data\nlr\raw\characterization\characterization_200.zip | 959,954 bytes | modified 2026-10-31 16:43
+data\nlr\raw\wind_experiments\windIEA3.4-5ms-A_2-200.zip | 892,995 bytes | modified 2026-11-02 22:24
+data\nlr\raw\wind_experiments\windIEA3.4-5ms-A_2-400.zip | 875,542 bytes | modified 2026-11-02 22:24
+data\nlr\raw\wind_experiments\windIEA3.4-5ms-C_2-200.zip | 866,133 bytes | modified 2026-11-02 22:24
+data\nlr\raw\wind_experiments\windIEA3.4-5ms-C_2-400.zip | 849,257 bytes | modified 2026-11-02 22:24
+data\nlr\raw\wind_experiments\windIEA3.4-7ms-A_1-200.zip | 1,018,437 bytes | modified 2026-11-02 22:24
+data\nlr\raw\wind_experiments\windIEA3.4-7ms-A_1-400.zip | 1,009,519 bytes | modified 2026-11-02 22:24
+data\nlr\raw\wind_experiments\windIEA3.4-7ms-C_1-200.zip | 967,525 bytes | modified 2026-11-02 22:31
+data\nlr\raw\wind_experiments\windIEA3.4-7ms-C_1-400.zip | 946,246 bytes | modified 2026-11-02 22:30
+data\nlr\raw\wind_experiments\windIEA3.4-9ms-A_1-400.zip | 649,753 bytes | modified 2026-11-02 22:25
+data\nlr\raw\wind_experiments\windIEA3.4-9ms-C_1-200.zip | 1,010,773 bytes | modified 2026-11-02 22:25
+data\nlr\raw\wind_experiments\windIEA3.4-9ms-C_1-400.zip | 1,043,270 bytes | modified 2026-11-02 22:25
+data\norce\test2_subset.csv | 1,625,679 bytes | modified 2026-10-26 11:43
+data\norce\test3_subset.csv | 1,492,930 bytes | modified 2026-10-26 11:43
+data\norce\test4_subset.csv | 7,959,775 bytes | modified 2026-10-26 11:43
+data\processed\meteosat\meteosat_observation_clean.csv | 2,692,883 bytes | modified 2026-11-02 19:11
+data\processed\nlr\nlr_minute_candidate.csv | 1,357,978 bytes | modified 2026-11-02 19:11
+data\processed\nlr\nlr_observation_clean.csv | 23,518,683 bytes | modified 2026-11-02 19:11
+data\processed\norce\norce_test2_processed.csv | 1,808,992 bytes | modified 2026-11-02 19:11
+data\processed\norce\norce_test3_processed.csv | 1,697,837 bytes | modified 2026-11-02 19:11
+data\processed\norce\norce_test4_processed.csv | 9,234,689 bytes | modified 2026-11-02 19:11
+data\processed\pvdaq\pvdaq_system_catalogue_processed.csv | 554,576 bytes | modified 2026-11-02 19:11
+data\pvdaq\systems_20250729.csv | 383,559 bytes | modified 2026-10-30 16:37
+data\README.md | 12,243 bytes | modified 2026-10-26 11:49
+data\solar\bengaluru_2017_meteosat.csv | 2,175,635 bytes | modified 2026-10-30 17:15
+data\test2_operating_sequence.png | 150,841 bytes | modified 2026-10-27 15:49
+data\test4_temporal_features.csv | 37,789,015 bytes | modified 2026-10-27 10:26
+download.py | 4,851 bytes | modified 2026-11-02 19:10
+download_solar.py | 1,049 bytes | modified 2026-10-30 17:13
+HydrogenDigitalTwin_Phase2_All_Code.txt | 38,298 bytes | modified 2026-11-17 08:50
+models\baseline_metrics.csv | 149 bytes | modified 2026-10-26 12:09
+models\benchmark_catboost.joblib | 285,705 bytes | modified 2026-10-26 12:56
+models\benchmark_dummy_mean.joblib | 687 bytes | modified 2026-10-26 12:55
+models\benchmark_extratrees.joblib | 814,985,601 bytes | modified 2026-10-26 12:55
+models\benchmark_gradientboosting.joblib | 85,672 bytes | modified 2026-10-26 12:55
+models\benchmark_histgradientboosting.joblib | 384,064 bytes | modified 2026-10-26 12:55
+models\benchmark_knn.joblib | 13,460,576 bytes | modified 2026-10-26 12:55
+models\benchmark_lightgbm.joblib | 768,556 bytes | modified 2026-10-26 12:56
+models\benchmark_linearregression.joblib | 1,521 bytes | modified 2026-10-26 12:55
+models\benchmark_mlp.joblib | 67,681 bytes | modified 2026-10-26 12:56
+models\benchmark_randomforest.joblib | 567,187,361 bytes | modified 2026-10-26 12:55
+models\benchmark_ridge.joblib | 1,425 bytes | modified 2026-10-26 12:55
+models\benchmark_svr_sampled.joblib | 11,798 bytes | modified 2026-10-26 12:55
+models\benchmark_xgboost.joblib | 1,030,348 bytes | modified 2026-10-26 12:56
+models\forecasting\nlr_10_step_ridge.joblib | 5,023 bytes | modified 2026-11-17 09:04
+models\forecasting\nlr_1_step_extratrees.joblib | 323,406,344 bytes | modified 2026-11-17 08:59
+models\forecasting\nlr_3_step_extratrees.joblib | 322,967,000 bytes | modified 2026-11-17 09:02
+models\forecasting\nlr_5_step_extratrees.joblib | 322,799,240 bytes | modified 2026-11-17 09:03
+models\gradientboosting_baseline.joblib | 85,725 bytes | modified 2026-10-27 10:35
+models\gradientboosting_temporal.joblib | 86,256 bytes | modified 2026-10-27 12:44
+models\test2_eval_catboost.joblib | 285,705 bytes | modified 2026-10-27 16:05
+models\test2_eval_dummy_mean.joblib | 687 bytes | modified 2026-10-27 16:04
+models\test2_eval_extratrees.joblib | 814,985,601 bytes | modified 2026-10-27 16:05
+models\test2_eval_gradientboosting.joblib | 85,672 bytes | modified 2026-10-27 16:05
+models\test2_eval_histgradientboosting.joblib | 384,064 bytes | modified 2026-10-27 16:05
+models\test2_eval_knn.joblib | 13,460,576 bytes | modified 2026-10-27 16:05
+models\test2_eval_lightgbm.joblib | 768,556 bytes | modified 2026-10-27 16:05
+models\test2_eval_linearregression.joblib | 1,521 bytes | modified 2026-10-27 16:04
+models\test2_eval_mlp.joblib | 67,681 bytes | modified 2026-10-27 16:05
+models\test2_eval_randomforest.joblib | 567,187,361 bytes | modified 2026-10-27 16:04
+models\test2_eval_ridge.joblib | 1,425 bytes | modified 2026-10-27 16:04
+models\test2_eval_svr_sampled.joblib | 11,798 bytes | modified 2026-10-27 16:05
+models\test2_eval_xgboost.joblib | 1,030,348 bytes | modified 2026-10-27 16:05
+models\validation_predictions.csv | 4,091,211 bytes | modified 2026-10-26 12:10
+models\voltage_random_forest.joblib | 567,187,361 bytes | modified 2026-10-26 12:09
+notebooks\01_NLR_EDA.ipynb | 5,487,995 bytes | modified 2026-11-02 19:23
+notebooks\02_NORCE_EDA.ipynb | 1,174,918 bytes | modified 2026-11-02 19:24
+notebooks\03_METEOSAT_EDA.ipynb | 1,364,183 bytes | modified 2026-11-02 19:24
+notebooks\04_PVDAQ_EDA.ipynb | 731,618 bytes | modified 2026-11-02 19:24
+notebooks\05_CROSS_DATASET_ANALYSIS.ipynb | 2,526,615 bytes | modified 2026-11-02 19:23
+organize_nlr_archives.py | 1,642 bytes | modified 2026-11-02 22:38
+project_audit.py | 8,697 bytes | modified 2026-11-16 22:05
+PROJECT_AUDIT_REPORT.txt | 75,187 bytes | modified 2026-11-16 22:05
+README_PHASE2.txt | 3,226 bytes | modified 2026-11-17 08:50
+reports\cross_dataset_assessment\cross_dataset_compatibility_matrix.csv | 881 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\cross_dataset_overview.csv | 247 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\cross_dataset_variable_inventory.csv | 11,578 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\export_manifest.csv | 2,122 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\HydrogenDigitalTwin_CrossDataset_EDA_Report.txt | 4,595 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\meteosat_daytime_irradiance_correlations.csv | 149 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\meteosat_daytime_irradiance_summary.csv | 266 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\nlr_experiment_wise_correlations.csv | 3,015 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\norce_correlation_matrices_long.csv | 4,450 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\norce_cv_mean_distribution_summary.csv | 326 bytes | modified 2026-11-02 19:11
+reports\cross_dataset_assessment\pvdaq_catalogue_assessment.csv | 377 bytes | modified 2026-11-02 19:11
+reports\forecasting\chronological_10_step.csv | 788 bytes | modified 2026-11-17 09:04
+reports\forecasting\chronological_1_step.csv | 810 bytes | modified 2026-11-17 08:59
+reports\forecasting\chronological_3_step.csv | 805 bytes | modified 2026-11-17 09:02
+reports\forecasting\chronological_5_step.csv | 798 bytes | modified 2026-11-17 09:03
+reports\forecasting\ridge_feature_ablation.csv | 533 bytes | modified 2026-11-26 07:03
+reports\physics\all_physics_source_code.txt | 84,908 bytes | modified 2026-11-17 06:35
+reports\physics\nlr_current_tracking_period_summary.csv | 437 bytes | modified 2026-11-03 15:21
+reports\physics\nlr_current_tracking_transitions.csv | 797 bytes | modified 2026-11-03 15:21
+reports\physics\nlr_current_tracking_validation_summary.csv | 249 bytes | modified 2026-11-03 15:21
+reports\physics\nlr_effective_faraday_observations.csv | 2,022,089 bytes | modified 2026-11-03 15:33
+reports\physics\nlr_effective_faraday_summary.csv | 519 bytes | modified 2026-11-03 15:33
+reports\physics\nlr_electrical_validation.csv | 2,543,484 bytes | modified 2026-11-17 07:22
+reports\physics\nlr_faraday_per_cell_reference.csv | 464,501 bytes | modified 2026-11-03 13:41
+reports\physics\nlr_flow_rate_period_analysis.csv | 541 bytes | modified 2026-11-03 15:01
+reports\physics\nlr_low_flow_current_matched_summary.csv | 11,613 bytes | modified 2026-11-03 15:41
+reports\physics\nlr_low_flow_episode_transition_summary.csv | 2,538 bytes | modified 2026-11-03 15:45
+reports\physics\nlr_low_flow_group_summary.csv | 2,901 bytes | modified 2026-11-03 15:41
+reports\physics\nlr_low_flow_pressure_transitions.csv | 4,092 bytes | modified 2026-11-03 15:48
+reports\physics\nlr_low_flow_process_episodes.csv | 1,940 bytes | modified 2026-11-03 15:41
+reports\physics\nlr_low_flow_process_observations.csv | 2,721,176 bytes | modified 2026-11-03 15:41
+reports\physics\nlr_low_flow_transition_context.csv | 21,656 bytes | modified 2026-11-03 15:44
+reports\physics\nlr_physics_validation_notes.md | 5,811 bytes | modified 2026-11-03 15:23
+reports\physics\nlr_physics_validation_summary.csv | 261 bytes | modified 2026-11-03 13:31
+reports\physics\nlr_power_consistency.csv | 1,206,641 bytes | modified 2026-11-03 13:31
+reports\physics\nlr_power_error_period_analysis.csv | 492 bytes | modified 2026-11-03 13:35
+reports\physics\nlr_production_rate_validation.csv | 959,470 bytes | modified 2026-11-03 13:31
+reports\physics\nlr_startup_120s_diagnostic.csv | 2,798 bytes | modified 2026-11-03 13:33
+reports\physics\nlr_startup_diagnostic_summary.csv | 257 bytes | modified 2026-11-03 13:33
+reports\physics\nlr_timestamp_validation.csv | 155 bytes | modified 2026-11-03 13:31
+reports\physics\norce\norce_duplicate_records.csv | 24,680 bytes | modified 2026-11-03 13:55
+reports\physics\norce\norce_duplicate_summary.csv | 213 bytes | modified 2026-11-03 13:55
+reports\physics\norce\norce_missing_data_by_variable.csv | 636 bytes | modified 2026-11-03 13:53
+reports\physics\norce\norce_missing_patterns.csv | 438 bytes | modified 2026-11-03 13:54
+reports\physics\norce\norce_missing_row_summary.csv | 202 bytes | modified 2026-11-03 13:54
+reports\physics\norce\norce_test4_duplicate_context.csv | 9,433 bytes | modified 2026-11-03 13:56
+reports\physics\norce\norce_test4_duplicate_occurrences.csv | 3,182 bytes | modified 2026-11-03 13:56
+reports\physics\norce\norce_test4_joint_pressure_trajectories.csv | 23,392 bytes | modified 2026-11-03 14:26
+reports\physics\norce\norce_test4_operating_ranges.csv | 308 bytes | modified 2026-11-03 13:58
+reports\physics\norce\norce_test4_pressure_correlations.csv | 2,512 bytes | modified 2026-11-03 14:12
+reports\physics\norce\norce_test4_pressure_difference_change_summary.csv | 718 bytes | modified 2026-11-03 14:13
+reports\physics\norce\norce_test4_pressure_difference_transitions.csv | 25,759 bytes | modified 2026-11-03 14:13
+reports\physics\norce\norce_test4_pressure_discontinuity_inspection.csv | 15,043 bytes | modified 2026-11-03 14:14
+reports\physics\norce\norce_test4_pressure_event_episodes.csv | 15,130 bytes | modified 2026-11-03 14:24
+reports\physics\norce\norce_test4_pressure_event_severity.csv | 37,952 bytes | modified 2026-11-03 14:15
+reports\physics\norce\norce_test4_pressure_joint_event_episodes.csv | 15,206 bytes | modified 2026-11-03 14:26
+reports\physics\norce\norce_test4_pressure_regime_episodes.csv | 1,839 bytes | modified 2026-11-03 14:07
+reports\physics\norce\norce_test4_pressure_regime_summary.csv | 711 bytes | modified 2026-11-03 14:07
+reports\physics\norce\norce_test4_pressure_relationship_summary.csv | 1,196 bytes | modified 2026-11-03 14:12
+reports\physics\norce\norce_test4_pressure_rundown_summary.csv | 1,811 bytes | modified 2026-11-03 14:28
+reports\physics\norce\norce_test4_pressure_sign_transitions.csv | 721 bytes | modified 2026-11-03 14:06
+reports\physics\norce\norce_test4_pressure_voltage_regions.csv | 878 bytes | modified 2026-11-03 14:05
+reports\physics\norce\norce_test4_startup_transition.csv | 7,506 bytes | modified 2026-11-03 13:59
+reports\physics\norce\norce_test4_transition_windows.csv | 15,145 bytes | modified 2026-11-03 14:03
+reports\physics\norce\nor​​ce_dataset_physics_validation.csv | 1,095 bytes | modified 2026-11-03 13:47
+requirements.txt | 0 bytes | modified 2026-10-26 11:37
+sample.py | 2,174 bytes | modified 2026-11-02 21:10
+scripts\ridge_feature_ablation.py | 9,385 bytes | modified 2026-11-26 07:23
+scripts\run_forecasting_experiments.py | 5,685 bytes | modified 2026-11-26 06:37
+src\ablate_temporal_features.py | 2,758 bytes | modified 2026-10-27 15:28
+src\analyze_error_by_support.py | 1,671 bytes | modified 2026-10-27 15:38
+src\analyze_low_current_regimes.py | 1,637 bytes | modified 2026-10-27 15:19
+src\analyze_low_current_timeline.py | 1,313 bytes | modified 2026-10-27 15:27
+src\analyze_phases.py | 1,559 bytes | modified 2026-10-26 12:05
+src\analyze_prediction_risk.py | 2,492 bytes | modified 2026-10-27 15:18
+src\analyze_temporal_errors.py | 2,718 bytes | modified 2026-10-27 14:10
+src\analyze_voltage_history_errors.py | 2,736 bytes | modified 2026-10-27 15:41
+src\audit_data.py | 2,728 bytes | modified 2026-10-26 11:55
+src\benchmark_models.py | 9,796 bytes | modified 2026-10-26 12:54
+src\benchmark_models_test2.py | 6,055 bytes | modified 2026-10-27 16:04
+src\build_temporal_features.py | 1,690 bytes | modified 2026-10-27 10:26
+src\calibrate_low_current_matches.py | 1,959 bytes | modified 2026-10-27 15:33
+src\compare_baseline_temporal_test2.py | 6,509 bytes | modified 2026-10-27 16:00
+src\compare_linear_ridge_temporal_test2.py | 6,619 bytes | modified 2026-10-30 15:54
+src\compare_low_current_distributions.py | 1,383 bytes | modified 2026-10-27 15:31
+src\compare_temporal_model.py | 6,277 bytes | modified 2026-10-27 10:35
+src\compare_top_models.py | 4,188 bytes | modified 2026-10-26 12:58
+src\evaluate_baseline.py | 3,420 bytes | modified 2026-10-26 12:10
+src\evaluate_persistence_baseline.py | 3,985 bytes | modified 2026-10-30 15:59
+src\evaluate_temporal_ood.py | 7,042 bytes | modified 2026-10-27 14:43
+src\forecasting\__init__.py | 63 bytes | modified 2026-11-17 08:50
+src\forecasting\baseline_models.py | 1,443 bytes | modified 2026-11-17 08:50
+src\forecasting\data_preparation.py | 3,198 bytes | modified 2026-11-26 06:36
+src\forecasting\feature_engineering.py | 4,398 bytes | modified 2026-11-17 08:50
+src\forecasting\forecast_engine.py | 1,851 bytes | modified 2026-11-17 08:50
+src\forecasting\forecast_evaluation.py | 2,866 bytes | modified 2026-11-17 08:50
+src\forecasting\forecast_horizons.py | 1,151 bytes | modified 2026-11-17 08:50
+src\forecasting\train_models.py | 3,851 bytes | modified 2026-11-17 08:50
+src\identify_operating_phases.py | 2,818 bytes | modified 2026-10-27 14:16
+src\integration\pem_engine.py | 5,959 bytes | modified 2026-11-17 08:23
+src\integration\pem_state.py | 1,804 bytes | modified 2026-11-26 07:22
+src\match_low_current_conditions.py | 3,224 bytes | modified 2026-10-27 15:32
+src\nlr\audit_nlr_data.py | 4,104 bytes | modified 2026-10-31 16:31
+src\physics\__init__.py | 196 bytes | modified 2026-11-26 07:22
+src\physics\data_validation\nlr_characterization_validation.py | 3,023 bytes | modified 2026-11-03 13:31
+src\physics\data_validation\nlr_current_tracking_analysis.py | 4,389 bytes | modified 2026-11-03 15:21
+src\physics\data_validation\nlr_effective_faraday_analysis.py | 3,247 bytes | modified 2026-11-03 15:32
+src\physics\data_validation\nlr_flow_rate_period_analysis.py | 1,866 bytes | modified 2026-11-03 15:01
+src\physics\data_validation\nlr_low_flow_episode_transitions.py | 2,304 bytes | modified 2026-11-03 15:45
+src\physics\data_validation\nlr_low_flow_pressure_transitions.py | 1,951 bytes | modified 2026-11-03 15:48
+src\physics\data_validation\nlr_low_flow_process_diagnostic.py | 3,904 bytes | modified 2026-11-03 15:40
+src\physics\data_validation\nlr_low_flow_transition_analysis.py | 2,078 bytes | modified 2026-11-03 15:44
+src\physics\data_validation\nlr_power_error_analysis.py | 2,270 bytes | modified 2026-11-03 13:35
+src\physics\data_validation\nlr_startup_diagnostic.py | 3,896 bytes | modified 2026-11-03 13:33
+src\physics\data_validation\norce_duplicate_analysis.py | 2,315 bytes | modified 2026-11-03 13:55
+src\physics\data_validation\norce_missing_data_analysis.py | 1,299 bytes | modified 2026-11-03 13:53
+src\physics\data_validation\norce_missing_pattern_analysis.py | 2,412 bytes | modified 2026-11-03 13:54
+src\physics\data_validation\norce_physics_validation.py | 3,231 bytes | modified 2026-11-03 13:47
+src\physics\data_validation\norce_test4_duplicate_inspection.py | 1,638 bytes | modified 2026-11-03 13:56
+src\physics\data_validation\norce_test4_joint_pressure_trajectory.py | 2,407 bytes | modified 2026-11-03 14:26
+src\physics\data_validation\norce_test4_operating_ranges.py | 1,593 bytes | modified 2026-11-03 13:57
+src\physics\data_validation\norce_test4_pressure_difference_transitions.py | 3,761 bytes | modified 2026-11-03 14:13
+src\physics\data_validation\norce_test4_pressure_discontinuity_inspection.py | 1,837 bytes | modified 2026-11-03 14:14
+src\physics\data_validation\norce_test4_pressure_event_episodes.py | 3,474 bytes | modified 2026-11-03 14:24
+src\physics\data_validation\norce_test4_pressure_event_severity.py | 2,061 bytes | modified 2026-11-03 14:14
+src\physics\data_validation\norce_test4_pressure_joint_event_episodes.py | 3,535 bytes | modified 2026-11-03 14:25
+src\physics\data_validation\norce_test4_pressure_regime_summary.py | 2,511 bytes | modified 2026-11-03 14:07
+src\physics\data_validation\norce_test4_pressure_relationship.py | 3,504 bytes | modified 2026-11-03 14:09
+src\physics\data_validation\norce_test4_pressure_rundown_analysis.py | 1,738 bytes | modified 2026-11-03 14:28
+src\physics\data_validation\norce_test4_pressure_sign_transitions.py | 1,946 bytes | modified 2026-11-03 14:06
+src\physics\data_validation\norce_test4_pressure_voltage_regions.py | 1,687 bytes | modified 2026-11-03 14:04
+src\physics\data_validation\norce_test4_startup_transition.py | 1,788 bytes | modified 2026-11-03 13:59
+src\physics\data_validation\norce_test4_timebase_audit.py | 1,875 bytes | modified 2026-11-03 14:31
+src\physics\data_validation\norce_test4_transition_windows.py | 1,321 bytes | modified 2026-11-03 14:03
+src\physics\electrical.py | 2,570 bytes | modified 2026-11-17 07:12
+src\physics\electrochemical.py | 3,001 bytes | modified 2026-11-17 07:10
+src\physics\faraday_law.py | 3,662 bytes | modified 2026-11-03 13:40
+src\physics\gas_pressure.py | 4,476 bytes | modified 2026-11-17 07:44
+src\physics\mass_balance.py | 2,853 bytes | modified 2026-11-17 07:13
+src\physics\thermal.py | 4,656 bytes | modified 2026-11-17 07:43
+src\physics\validate_electrical.py | 4,168 bytes | modified 2026-11-17 07:21
+src\physics\water_system.py | 3,402 bytes | modified 2026-11-17 08:14
+src\train_baseline.py | 2,886 bytes | modified 2026-10-26 12:09
+src\visualize_data.py | 1,664 bytes | modified 2026-10-26 11:56
+tests\forecasting\test_baseline_models.py | 542 bytes | modified 2026-11-17 08:50
+tests\forecasting\test_data_preparation.py | 894 bytes | modified 2026-11-17 08:50
+tests\forecasting\test_feature_engineering.py | 1,085 bytes | modified 2026-11-17 08:54
+tests\forecasting\test_forecast_engine.py | 791 bytes | modified 2026-11-17 08:50
+tests\forecasting\test_forecast_evaluation.py | 647 bytes | modified 2026-11-17 08:50
+tests\forecasting\test_forecast_horizons.py | 493 bytes | modified 2026-11-17 08:50
+tests\forecasting\test_forecasting_pipeline.py | 1,253 bytes | modified 2026-11-17 08:50
+tests\forecasting\test_train_models.py | 601 bytes | modified 2026-11-17 08:50
+tests\test_electrical.py | 1,328 bytes | modified 2026-11-17 07:12
+tests\test_electrochemical.py | 1,577 bytes | modified 2026-11-17 07:10
+tests\test_faraday_law.py | 2,126 bytes | modified 2026-11-17 07:53
+tests\test_gas_pressure.py | 1,989 bytes | modified 2026-11-17 07:52
+tests\test_mass_balance.py | 1,799 bytes | modified 2026-11-17 07:14
+tests\test_pem_integration.py | 4,810 bytes | modified 2026-11-17 08:20
+tests\test_thermal.py | 1,565 bytes | modified 2026-11-17 07:50
+tests\test_water_system.py | 1,593 bytes | modified 2026-11-17 07:51
+
+3. PYTHON SOURCE STRUCTURE
+-----------------------------------------------------------------
+
+### app.py
+Imports: 
+Definitions:
+  (No top-level functions/classes)
+Total lines: 0
+
+### download.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from tempfile import TemporaryDirectory; import shutil
+Definitions:
+  (No top-level functions/classes)
+Total lines: 105
+
+### download_solar.py
+Imports: import os; import requests; from pathlib import Path
+Definitions:
+  (No top-level functions/classes)
+Total lines: 48
+
+### organize_nlr_archives.py
+Imports: from pathlib import Path; import shutil
+Definitions:
+  function move_archive(filename, destination) — line 37
+Total lines: 60
+
+### project_audit.py
+Imports: from pathlib import Path; from datetime import datetime; import ast; import csv; import hashlib; import json; import os
+Definitions:
+  function human_size(size) — line 24
+  function file_hash(path) — line 32
+  function inspect_python(path) — line 42
+  function inspect_notebook(path) — line 70
+  function inspect_csv(path) — line 92
+  function classify(path) — line 110
+Total lines: 262
+
+### sample.py
+Imports: import pandas as pd; import numpy as np; from sklearn.pipeline import Pipeline; from sklearn.preprocessing import StandardScaler; from sklearn.linear_model import Ridge; from sklearn.model_selection import LeaveOneGroupOut; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  (No top-level functions/classes)
+Total lines: 71
+
+### scripts\ridge_feature_ablation.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd; from sklearn.impute import SimpleImputer; from sklearn.linear_model import Ridge; from sklearn.metrics import (; from sklearn.pipeline import Pipeline; from sklearn.preprocessing import StandardScaler; from src.forecasting.data_preparation import prepare_forecasting_data; from src.forecasting.feature_engineering import create_supervised_dataset
+Definitions:
+  function calculate_metrics(y_true, predictions) — line 38
+  function build_model() — line 46
+  function main() — line 54
+Total lines: 331
+
+### scripts\run_forecasting_experiments.py
+Imports: import argparse; from pathlib import Path; import json; import numpy as np; import pandas as pd; from sklearn.base import clone; from src.forecasting.data_preparation import prepare_forecasting_data; from src.forecasting.feature_engineering import create_supervised_dataset; from src.forecasting.train_models import build_candidate_models; from src.forecasting.forecast_evaluation import calculate_forecast_metrics, chronological_train_test_split; from src.forecasting.forecast_engine import ForecastEngine; from src.forecasting.baseline_models import mean_baseline
+Definitions:
+  function build_dataset(horizon) — line 34
+  function evaluate_chronological(X, y, meta, random_state, include_optional) — line 45
+  function evaluate_loeo(X, y, meta, random_state, include_optional) — line 65
+  function main() — line 83
+Total lines: 114
+
+### src\ablate_temporal_features.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd; from sklearn.ensemble import GradientBoostingRegressor; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function make_model() — line 43
+  function main() — line 53
+Total lines: 101
+
+### src\analyze_error_by_support.py
+Imports: import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 52
+
+### src\analyze_low_current_regimes.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 68
+
+### src\analyze_low_current_timeline.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 47
+
+### src\analyze_phases.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function analyze_file(filename) — line 13
+  function main() — line 53
+Total lines: 62
+
+### src\analyze_prediction_risk.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function summarize_errors(df, group_columns) — line 14
+  function main() — line 29
+Total lines: 83
+
+### src\analyze_temporal_errors.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  function metrics(part, model_name, pred_col, error_col) — line 23
+Total lines: 88
+
+### src\analyze_voltage_history_errors.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 91
+
+### src\audit_data.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function audit_file(filename) — line 17
+  function main() — line 72
+Total lines: 92
+
+### src\benchmark_models.py
+Imports: from pathlib import Path; import time; import warnings; import joblib; import numpy as np; import pandas as pd; from sklearn.base import clone; from sklearn.compose import TransformedTargetRegressor; from sklearn.dummy import DummyRegressor; from sklearn.ensemble import (; from sklearn.impute import SimpleImputer; from sklearn.linear_model import LinearRegression, Ridge; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score; from sklearn.neighbors import KNeighborsRegressor; from sklearn.neural_network import MLPRegressor
+Definitions:
+  function current_group_metrics(y_true, y_pred, current) — line 46
+  function make_models() — line 63
+  function main() — line 181
+Total lines: 299
+
+### src\benchmark_models_test2.py
+Imports: from pathlib import Path; import time; import warnings; import joblib; import numpy as np; import pandas as pd; from sklearn.base import clone; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score; from benchmark_models import (
+Definitions:
+  function metric_rows(name, y, pred, current) — line 31
+  function main() — line 67
+Total lines: 187
+
+### src\build_temporal_features.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function main() — line 14
+Total lines: 57
+
+### src\calibrate_low_current_matches.py
+Imports: import pandas as pd; from sklearn.neighbors import NearestNeighbors; from sklearn.preprocessing import RobustScaler
+Definitions:
+  function report(name, distances) — line 39
+Total lines: 63
+
+### src\compare_baseline_temporal_test2.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd; from sklearn.ensemble import GradientBoostingRegressor; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function make_model() — line 24
+  function add_temporal_features(df) — line 34
+  function report_metrics(name, y, pred, current) — line 60
+  function main() — line 90
+Total lines: 195
+
+### src\compare_linear_ridge_temporal_test2.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd; from sklearn.linear_model import LinearRegression, Ridge; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score; from sklearn.pipeline import Pipeline; from sklearn.preprocessing import StandardScaler
+Definitions:
+  function create_temporal_features(df) — line 26
+  function evaluate(y_true, y_pred) — line 55
+  function main() — line 64
+Total lines: 213
+
+### src\compare_low_current_distributions.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function main() — line 16
+Total lines: 54
+
+### src\compare_temporal_model.py
+Imports: from pathlib import Path; import time; import joblib; import numpy as np; import pandas as pd; from sklearn.ensemble import GradientBoostingRegressor; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function make_model() — line 26
+  function calculate_metrics(y_true, y_pred, current, label) — line 36
+  function main() — line 61
+Total lines: 194
+
+### src\compare_top_models.py
+Imports: from pathlib import Path; import joblib; import numpy as np; import pandas as pd; import matplotlib.pyplot as plt; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function main() — line 19
+Total lines: 137
+
+### src\evaluate_baseline.py
+Imports: from pathlib import Path; import joblib; import matplotlib.pyplot as plt; import numpy as np; import pandas as pd; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function main() — line 17
+Total lines: 96
+
+### src\evaluate_persistence_baseline.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function metrics(y_true, y_pred) — line 20
+  function main() — line 29
+Total lines: 143
+
+### src\evaluate_temporal_ood.py
+Imports: from pathlib import Path; import joblib; import numpy as np; import pandas as pd; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function make_temporal_features(df) — line 27
+  function calculate_metrics(y_true, y_pred, current, label) — line 54
+  function evaluate_experiment(test_name, model, model_features) — line 86
+  function main() — line 152
+Total lines: 220
+
+### src\forecasting\__init__.py
+Imports: 
+Definitions:
+  (No top-level functions/classes)
+Total lines: 2
+
+### src\forecasting\baseline_models.py
+Imports: import numpy as np
+Definitions:
+  function persistence_forecast(current_values) — line 4
+  function mean_baseline(training_target, number_of_predictions) — line 10
+  function seasonal_naive_forecast(history, seasonal_period, number_of_predictions) — line 18
+Total lines: 27
+
+### src\forecasting\data_preparation.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function load_forecasting_data(file_path, target_column, experiment_column, timestamp_column) — line 8
+  function select_feature_columns(df, target_column, experiment_column, timestamp_column, feature_columns, excluded_features) — line 35
+  function prepare_forecasting_data(file_path, target_column, experiment_column, timestamp_column, feature_columns, excluded_features) — line 63
+Total lines: 71
+
+### src\forecasting\feature_engineering.py
+Imports: import pandas as pd; from src.forecasting.data_preparation import select_feature_columns
+Definitions:
+  function create_supervised_dataset(df, target_column, horizon_steps, lags, rolling_windows, experiment_column, timestamp_column, feature_columns, drop_incomplete_rows) — line 5
+Total lines: 80
+
+### src\forecasting\forecast_engine.py
+Imports: from pathlib import Path; import joblib; import pandas as pd
+Definitions:
+  class ForecastEngine — line 6
+Total lines: 40
+
+### src\forecasting\forecast_evaluation.py
+Imports: import numpy as np; import pandas as pd; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function calculate_forecast_metrics(y_true, y_pred) — line 6
+  function evaluate_models(models, X_test, y_test, persistence_column) — line 23
+  function chronological_train_test_split(X, y, metadata, test_fraction, experiment_column) — line 33
+Total lines: 52
+
+### src\forecasting\forecast_horizons.py
+Imports: from dataclasses import dataclass
+Definitions:
+  class ForecastHorizon — line 5
+  function create_horizons(mapping) — line 23
+  function get_horizon(name, horizons) — line 26
+Total lines: 30
+
+### src\forecasting\train_models.py
+Imports: from sklearn.pipeline import Pipeline; from sklearn.impute import SimpleImputer; from sklearn.preprocessing import StandardScaler; from sklearn.linear_model import Ridge; from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor, GradientBoostingRegressor, HistGradientBoostingRegressor
+Definitions:
+  function build_candidate_models(random_state, include_optional) — line 8
+  function train_models(X_train, y_train, models, random_state, include_optional) — line 53
+Total lines: 63
+
+### src\identify_operating_phases.py
+Imports: from pathlib import Path; import matplotlib.pyplot as plt; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 83
+
+### src\integration\pem_engine.py
+Imports: from src.physics.electrical import calculate_dc_power_kw; from src.physics.faraday_law import calculate_hydrogen_rate; from src.physics.mass_balance import (; from src.physics.water_system import (; from src.physics.thermal import (; from src.physics.gas_pressure import (; from src.integration.pem_state import (
+Definitions:
+  class PEMPhysicsEngine — line 32
+Total lines: 166
+
+### src\integration\pem_state.py
+Imports: from dataclasses import dataclass; from typing import Optional
+Definitions:
+  class PEMParameters — line 7
+  class PEMInputs — line 19
+  class PEMState — line 46
+Total lines: 59
+
+### src\match_low_current_conditions.py
+Imports: import numpy as np; import pandas as pd; from sklearn.neighbors import NearestNeighbors; from sklearn.preprocessing import RobustScaler
+Definitions:
+  (No top-level functions/classes)
+Total lines: 91
+
+### src\nlr\audit_nlr_data.py
+Imports: from pathlib import Path; import json; import pandas as pd
+Definitions:
+  function main() — line 27
+Total lines: 133
+
+### src\physics\__init__.py
+Imports: from .faraday_law import *; from .electrochemical import *; from .electrical import *; from .mass_balance import *; from .thermal import *; from .water_system import *; from .gas_pressure import *
+Definitions:
+  (No top-level functions/classes)
+Total lines: 7
+
+### src\physics\data_validation\nlr_characterization_validation.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from io import BytesIO; import pandas as pd
+Definitions:
+  function load_data() — line 16
+  function main() — line 29
+Total lines: 116
+
+### src\physics\data_validation\nlr_current_tracking_analysis.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from io import BytesIO; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 168
+
+### src\physics\data_validation\nlr_effective_faraday_analysis.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from io import BytesIO; import numpy as np; import pandas as pd
+Definitions:
+  function calculate_one_cell_ideal_rate(current_a) — line 24
+  function main() — line 33
+Total lines: 124
+
+### src\physics\data_validation\nlr_flow_rate_period_analysis.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  function main() — line 11
+Total lines: 61
+
+### src\physics\data_validation\nlr_low_flow_episode_transitions.py
+Imports: from pathlib import Path; import zipfile; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 79
+
+### src\physics\data_validation\nlr_low_flow_pressure_transitions.py
+Imports: from pathlib import Path; import zipfile; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 85
+
+### src\physics\data_validation\nlr_low_flow_process_diagnostic.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from io import BytesIO; import numpy as np; import pandas as pd
+Definitions:
+  function main() — line 33
+Total lines: 132
+
+### src\physics\data_validation\nlr_low_flow_transition_analysis.py
+Imports: from pathlib import Path; import zipfile; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 77
+
+### src\physics\data_validation\nlr_power_error_analysis.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from io import BytesIO; import pandas as pd
+Definitions:
+  function main() — line 19
+Total lines: 84
+
+### src\physics\data_validation\nlr_startup_diagnostic.py
+Imports: from pathlib import Path; from zipfile import ZipFile; from io import BytesIO; import pandas as pd
+Definitions:
+  function load_data() — line 27
+  function inspect_startup(data) — line 48
+  function create_summary(startup) — line 104
+  function main() — line 126
+Total lines: 154
+
+### src\physics\data_validation\norce_duplicate_analysis.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function analyze_duplicates(name, path) — line 24
+  function main() — line 58
+Total lines: 91
+
+### src\physics\data_validation\norce_missing_data_analysis.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function main() — line 24
+Total lines: 54
+
+### src\physics\data_validation\norce_missing_pattern_analysis.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function analyze_patterns(name, path) — line 24
+  function main() — line 61
+Total lines: 93
+
+### src\physics\data_validation\norce_physics_validation.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  function inspect_dataset(name, path) — line 26
+  function main() — line 92
+Total lines: 118
+
+### src\physics\data_validation\norce_test4_duplicate_inspection.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function main() — line 19
+Total lines: 63
+
+### src\physics\data_validation\norce_test4_joint_pressure_trajectory.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 71
+
+### src\physics\data_validation\norce_test4_operating_ranges.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function main() — line 19
+Total lines: 61
+
+### src\physics\data_validation\norce_test4_pressure_difference_transitions.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 129
+
+### src\physics\data_validation\norce_test4_pressure_discontinuity_inspection.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 85
+
+### src\physics\data_validation\norce_test4_pressure_event_episodes.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 91
+
+### src\physics\data_validation\norce_test4_pressure_event_severity.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 59
+
+### src\physics\data_validation\norce_test4_pressure_joint_event_episodes.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 95
+
+### src\physics\data_validation\norce_test4_pressure_regime_summary.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 93
+
+### src\physics\data_validation\norce_test4_pressure_relationship.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 124
+
+### src\physics\data_validation\norce_test4_pressure_rundown_analysis.py
+Imports: from pathlib import Path; import numpy as np; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 50
+
+### src\physics\data_validation\norce_test4_pressure_sign_transitions.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 74
+
+### src\physics\data_validation\norce_test4_pressure_voltage_regions.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 68
+
+### src\physics\data_validation\norce_test4_startup_transition.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 66
+
+### src\physics\data_validation\norce_test4_timebase_audit.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 65
+
+### src\physics\data_validation\norce_test4_transition_windows.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  (No top-level functions/classes)
+Total lines: 57
+
+### src\physics\electrical.py
+Imports: import math; from numbers import Real
+Definitions:
+  function _validate_finite(value, name) — line 7
+  function calculate_dc_power_kw(voltage_v, current_a) — line 19
+  function calculate_power_discrepancy_kw(reported_power_kw, calculated_power_kw) — line 30
+  function calculate_relative_power_discrepancy_percent(reported_power_kw, calculated_power_kw) — line 44
+  function calculate_energy_kwh(power_kw, duration_hours) — line 69
+Total lines: 84
+
+### src\physics\electrochemical.py
+Imports: import math; from numbers import Real; from .faraday_law import (
+Definitions:
+  function _validate_finite(value, name) — line 15
+  function ideal_hydrogen_rate_per_cell_kg_hr(current_a) — line 27
+  function theoretical_stack_hydrogen_rate_kg_hr(current_a, number_of_cells, faradaic_efficiency) — line 37
+  function effective_cell_efficiency_product(current_a, measured_hydrogen_kg_hr) — line 67
+  function hydrogen_rate_residual_kg_hr(measured_hydrogen_kg_hr, theoretical_hydrogen_kg_hr) — line 95
+Total lines: 110
+
+### src\physics\faraday_law.py
+Imports: from pathlib import Path; import pandas as pd
+Definitions:
+  function calculate_hydrogen_rate(current_a, number_of_cells, faradaic_efficiency) — line 20
+  function calculate_per_cell_ideal_rate(current_a) — line 51
+  function main() — line 70
+Total lines: 132
+
+### src\physics\gas_pressure.py
+Imports: import numpy as np
+Definitions:
+  function _check(value, name) — line 18
+  function celsius_to_kelvin(temperature_c) — line 25
+  function hydrogen_mass_from_pressure_kg(pressure_pa_absolute, volume_m3, temperature_k, gas_constant) — line 36
+  function hydrogen_pressure_from_mass_pa(hydrogen_mass_kg, volume_m3, temperature_k, gas_constant) — line 61
+  function gas_mass_balance_kg_s(inlet_mass_flow_kg_s, outlet_mass_flow_kg_s, leakage_mass_flow_kg_s) — line 85
+  function pressure_rate_pa_s(hydrogen_mass_kg, net_mass_flow_kg_s, volume_m3, temperature_k, temperature_rate_k_s, gas_constant) — line 104
+  function predict_pressure_step_pa(pressure_pa_absolute, pressure_rate_pa_s_value, dt_s) — line 145
+Total lines: 171
+
+### src\physics\mass_balance.py
+Imports: import math; from numbers import Real
+Definitions:
+  function _validate_finite(value, name) — line 7
+  function calculate_hydrogen_mass_balance_rate_kg_hr(generation_rate_kg_hr, outlet_rate_kg_hr, loss_rate_kg_hr) — line 19
+  function calculate_inventory_change_kg(generation_rate_kg_hr, outlet_rate_kg_hr, duration_hours, loss_rate_kg_hr) — line 39
+  function calculate_hydrogen_mass_from_flow_kg(flow_rate_kg_hr, duration_hours) — line 64
+  function calculate_mass_balance_residual_kg(generation_mass_kg, outlet_mass_kg, loss_mass_kg, inventory_change_kg) — line 78
+Total lines: 97
+
+### src\physics\thermal.py
+Imports: from dataclasses import dataclass; import numpy as np
+Definitions:
+  function _finite(value, name) — line 22
+  function water_temperature_difference(inlet_temp_c, outlet_temp_c) — line 29
+  function temperature_rate(temp_now_c, temp_previous_c, dt_s) — line 36
+  function water_side_heat_transfer_w(water_mass_flow_kg_s, inlet_temp_c, outlet_temp_c, cp_j_kg_k) — line 47
+  class ThermalParameters — line 69
+  function thermal_energy_balance_w(stack_temperature_c, ambient_temperature_c, heat_generated_w, heat_removed_w, heat_loss_coefficient_w_k) — line 89
+  function predict_temperature_step_c(temperature_c, net_heat_w, dt_s, thermal_capacitance_j_k) — line 113
+  function thermal_state_rate(stack_temperature_c, heat_generated_w, heat_removed_w, parameters) — line 137
+Total lines: 154
+
+### src\physics\validate_electrical.py
+Imports: from pathlib import Path; import zipfile; import numpy as np; import pandas as pd; from sklearn.linear_model import LinearRegression; from sklearn.metrics import r2_score
+Definitions:
+  function load_characterization_data() — line 37
+  function validate_electrical_data(df) — line 44
+  function main() — line 134
+Total lines: 157
+
+### src\physics\water_system.py
+Imports: import numpy as np
+Definitions:
+  function _check(value, name) — line 13
+  function volumetric_to_mass_flow_m3_s(volumetric_flow_m3_s, density_kg_m3) — line 22
+  function water_mass_balance_kg_s(inlet_mass_flow_kg_s, outlet_mass_flow_kg_s, consumption_mass_flow_kg_s) — line 38
+  function update_water_inventory_kg(previous_inventory_kg, net_mass_flow_kg_s, dt_s) — line 60
+  function water_side_heat_duty_w(mass_flow_kg_s, inlet_temperature_c, return_temperature_c, specific_heat_j_kg_k) — line 83
+  function hydrogen_water_consumption_kg_s(hydrogen_production_kg_s) — line 106
+Total lines: 125
+
+### src\train_baseline.py
+Imports: from pathlib import Path; import joblib; import matplotlib.pyplot as plt; import numpy as np; import pandas as pd; from sklearn.ensemble import RandomForestRegressor; from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+Definitions:
+  function main() — line 21
+Total lines: 96
+
+### src\visualize_data.py
+Imports: from pathlib import Path; import matplotlib.pyplot as plt; import pandas as pd
+Definitions:
+  function visualize_file(filename) — line 33
+  function main() — line 62
+Total lines: 71
+
+### tests\forecasting\test_baseline_models.py
+Imports: import numpy as np; import pytest; from src.forecasting.baseline_models import persistence_forecast, mean_baseline, seasonal_naive_forecast
+Definitions:
+  function test_persistence() — line 5
+  function test_mean_baseline() — line 8
+  function test_seasonal_naive() — line 11
+  function test_empty_persistence_rejected() — line 14
+Total lines: 16
+
+### tests\forecasting\test_data_preparation.py
+Imports: import pandas as pd; import pytest; from src.forecasting.data_preparation import select_feature_columns, load_forecasting_data
+Definitions:
+  function test_selects_numeric_and_excludes_target_leakage() — line 5
+  function test_missing_file_raises() — line 10
+  function test_load_drops_missing_target_and_keeps_group() — line 14
+Total lines: 21
+
+### tests\forecasting\test_feature_engineering.py
+Imports: import pandas as pd; from src.forecasting.feature_engineering import create_supervised_dataset
+Definitions:
+  function sample() — line 4
+  function test_target_is_future_and_lags_are_past() — line 9
+  function test_experiments_do_not_share_lag_history() — line 15
+  function test_missing_sensor_values_are_preserved_for_imputation() — line 20
+Total lines: 24
+
+### tests\forecasting\test_forecast_engine.py
+Imports: import numpy as np; import pandas as pd; from sklearn.linear_model import LinearRegression; from src.forecasting.forecast_engine import ForecastEngine
+Definitions:
+  function test_predict_and_save_load(tmp_path) — line 6
+  function test_missing_feature_rejected() — line 18
+Total lines: 22
+
+### tests\forecasting\test_forecast_evaluation.py
+Imports: import numpy as np; import pandas as pd; from sklearn.dummy import DummyRegressor; from src.forecasting.forecast_evaluation import calculate_forecast_metrics, chronological_train_test_split
+Definitions:
+  function test_metrics_known_values() — line 6
+  function test_chronological_split_within_groups() — line 11
+Total lines: 17
+
+### tests\forecasting\test_forecast_horizons.py
+Imports: import pytest; from src.forecasting.forecast_horizons import DEFAULT_HORIZONS, ForecastHorizon, create_horizons, get_horizon
+Definitions:
+  function test_default_horizons() — line 4
+  function test_create_and_get_horizon() — line 7
+  function test_invalid_horizon_rejected() — line 11
+Total lines: 13
+
+### tests\forecasting\test_forecasting_pipeline.py
+Imports: import numpy as np; import pandas as pd; from sklearn.linear_model import Ridge; from sklearn.impute import SimpleImputer; from sklearn.pipeline import Pipeline; from src.forecasting.feature_engineering import create_supervised_dataset; from src.forecasting.forecast_evaluation import chronological_train_test_split, calculate_forecast_metrics; from src.forecasting.forecast_engine import ForecastEngine
+Definitions:
+  function test_synthetic_end_to_end_pipeline(tmp_path) — line 10
+Total lines: 24
+
+### tests\forecasting\test_train_models.py
+Imports: import numpy as np; import pandas as pd; from sklearn.dummy import DummyRegressor; from src.forecasting.train_models import train_models, build_candidate_models
+Definitions:
+  function test_candidate_models_exist() — line 6
+  function test_training_fits_supplied_model() — line 10
+Total lines: 14
+
+### tests\test_electrical.py
+Imports: import pytest; from src.physics.electrical import (
+Definitions:
+  function test_dc_power_calculation() — line 11
+  function test_zero_power() — line 15
+  function test_power_discrepancy() — line 19
+  function test_relative_power_discrepancy() — line 23
+  function test_energy_calculation() — line 28
+  function test_zero_duration() — line 32
+  function test_negative_inputs_rejected() — line 36
+  function test_relative_discrepancy_zero_reference() — line 44
+  function test_negative_power_rejected() — line 51
+Total lines: 53
+
+### tests\test_electrochemical.py
+Imports: import math; import pytest; from src.physics.electrochemical import (
+Definitions:
+  function test_zero_current() — line 12
+  function test_stack_rate_scales_correctly() — line 16
+  function test_effective_parameter_recovery() — line 27
+  function test_zero_measured_flow() — line 42
+  function test_effective_parameter_rejects_zero_current() — line 46
+  function test_invalid_stack_parameters() — line 51
+  function test_non_finite_current() — line 59
+  function test_hydrogen_flow_residual() — line 64
+Total lines: 65
+
+### tests\test_faraday_law.py
+Imports: import pytest; from src.physics.faraday_law import (
+Definitions:
+  function test_faraday_constants() — line 13
+  function test_zero_current_produces_zero_hydrogen() — line 19
+  function test_single_cell_ideal_hydrogen_rate() — line 24
+  function test_multiple_cells_increase_hydrogen_rate() — line 39
+  function test_faradaic_efficiency_scales_production() — line 46
+  function test_per_cell_ideal_rate() — line 53
+  function test_negative_current_rejected() — line 61
+  function test_zero_cell_count_rejected() — line 66
+  function test_non_integer_cell_count_rejected() — line 71
+  function test_invalid_faradaic_efficiency_rejected() — line 76
+  function test_zero_faradaic_efficiency_rejected() — line 81
+Total lines: 83
+
+### tests\test_gas_pressure.py
+Imports: import pytest; from src.physics.gas_pressure import (
+Definitions:
+  function test_celsius_to_kelvin() — line 14
+  function test_hydrogen_mass_from_pressure() — line 18
+  function test_pressure_from_hydrogen_mass() — line 27
+  function test_gas_mass_balance() — line 39
+  function test_pressure_rate() — line 46
+  function test_pressure_prediction() — line 55
+  function test_negative_absolute_pressure() — line 62
+  function test_zero_gas_volume() — line 69
+  function test_negative_hydrogen_mass() — line 76
+  function test_negative_gas_flow() — line 83
+  function test_non_positive_temperature() — line 90
+Total lines: 92
+
+### tests\test_mass_balance.py
+Imports: import pytest; from src.physics.mass_balance import (
+Definitions:
+  function test_generation_exceeds_outflow() — line 11
+  function test_outflow_exceeds_generation() — line 16
+  function test_losses_are_accounted_for() — line 21
+  function test_inventory_accumulation() — line 26
+  function test_inventory_depletion() — line 31
+  function test_hydrogen_mass_from_constant_flow() — line 36
+  function test_mass_balance_closure() — line 41
+  function test_mass_balance_nonzero_residual() — line 51
+  function test_negative_flow_rejected() — line 61
+  function test_negative_duration_rejected() — line 66
+Total lines: 68
+
+### tests\test_pem_integration.py
+Imports: import pytest; from src.integration.pem_state import PEMInputs, PEMParameters; from src.integration.pem_engine import PEMPhysicsEngine
+Definitions:
+  function test_electrical_power_integration() — line 8
+  function test_faraday_production_integration() — line 17
+  function test_faraday_not_calculated_without_cell_parameters() — line 32
+  function test_hydrogen_mass_balance() — line 40
+  function test_hydrogen_pressure_estimation() — line 53
+  function test_hydrogen_inventory_estimation() — line 69
+  function test_water_mass_balance() — line 85
+  function test_water_inventory_update() — line 98
+  function test_water_inventory_not_updated_without_outlet_flow() — line 113
+  function test_water_heat_duty() — line 127
+  function test_thermal_calculation() — line 141
+  function test_thermal_not_calculated_without_heat_generation() — line 163
+  function test_empty_inputs_return_empty_state() — line 184
+Total lines: 192
+
+### tests\test_thermal.py
+Imports: import pytest; from src.physics.thermal import (
+Definitions:
+  function test_water_temperature_difference() — line 15
+  function test_temperature_rate() — line 19
+  function test_water_heat_transfer() — line 23
+  function test_thermal_energy_balance() — line 28
+  function test_temperature_prediction() — line 35
+  function test_thermal_state_rate() — line 42
+  function test_invalid_time_interval() — line 48
+  function test_invalid_heat_capacity() — line 53
+  function test_negative_water_flow() — line 58
+  function test_non_finite_temperature() — line 63
+Total lines: 65
+
+### tests\test_water_system.py
+Imports: import pytest; from src.physics.water_system import (
+Definitions:
+  function test_volumetric_to_mass_flow() — line 13
+  function test_water_mass_balance() — line 18
+  function test_water_inventory_update() — line 25
+  function test_water_heat_duty() — line 30
+  function test_hydrogen_water_consumption() — line 37
+  function test_negative_volumetric_flow() — line 44
+  function test_negative_water_inventory() — line 49
+  function test_negative_water_mass_balance_flow() — line 54
+  function test_zero_time_interval() — line 59
+  function test_negative_hydrogen_production() — line 64
+Total lines: 66
+
+4. DOCUMENTATION HEADINGS
+-----------------------------------------------------------------
+
+### data\dataset_README.md
+# PEM Electrolyzer Dataset
+## Data Provenance
+## Datasets
+### test2_subset.csv
+### test3_subset.csv
+### test4_subset.csv
+## Variables
+## Data Characteristics
+## Regenerating Subsets
+## Usage Notes
+### For Model Training
+# Load training data
+# Extract features and targets
+### For OOD Evaluation
+# Load OOD test data
+### Important Constraints
+## Data Integrity
+## References
+
+### data\README.md
+# PEM Electrolyzer PINN Optimizer
+## Table of Contents
+## Overview
+### What This Repository Includes
+## Data Sources
+## Methodology
+### 1. Physics-Informed Teacher
+### 2. Knowledge Distillation
+### 3. Inverse Pressure Optimization
+### 4. Digital Twin
+## Sample Results
+### Training Convergence
+### Prediction Quality
+### OOD Performance Comparison
+### Multi-Dimensional Analysis
+### Data Exploration
+## Getting Started
+### Project Structure
+### Installation
+# 1. SSH into your VM
+# 2. Init VM (first time only)
+# 3. Clone and setup
+# 4. Quick test
+### Usage
+# Full training (GPU recommended)
+# Ablation study (7 experiments x 3 seeds)
+# Inverse: find max safe pressure
+# Digital twin
+## CLI Reference
+### Parameter Sweep Examples
+# Sweep current at fixed conditions
+# Voltage map across operating envelope
+## NAIC Orchestrator VM Deployment
+### Jupyter Access
+# On VM:
+# On laptop (SSH tunnel):
+### Background Training
+### Resources
+## Troubleshooting
+## References
+## AI Agent
+## License
+
+### HydrogenDigitalTwin_Phase2_All_Code.txt
+# Preserve original row order within each experiment.
+# The measured target at issue time t is a valid persistence reference,
+# provided it is actually available to the deployed forecasting system.
+# Grouped rolling is calculated independently per experiment.
+# Retain rows with a valid future target. Missing sensor inputs are left for
+# training-only imputation inside model pipelines.
+# Only load joblib files created by a trusted local process.
+
+### PROJECT_AUDIT_REPORT.txt
+# Exploratory Data Analysis – NLR PEM Electrolyzer Dataset
+# Cell 1: Import required libraries
+# Visualization settings
+# Display settings
+# Cell 2: Upload NLR dataset
+# Cell 3: Load the NLR dataset
+# Cell 4: Initial dataset structure
+# Cell 5: Missing Value Analysis
+# Cell 6: Visualize missing-value patterns
+# Cell 9: Descriptive statistics of numerical variables
+# NORCE — LOAD TEST2, TEST3 AND TEST4 DATASETS
+# Load datasets independently from local workspace paths
+# Display dataset information
+# NORCE — STAGE 1: MISSING-VALUE ASSESSMENT
+# NORCE — STAGE 1: MISSINGNESS PATTERN ANALYSIS
+# Rows with at least one missing value
+# Contiguous blocks of affect
+# Load original dataset
+# Initial structural inspection
+# Preserve the metadata row separately
+# Load observations using the second row as column headers
+# Preserve both metadata rows
+# Actual column names are on the third physical row
+# Inspect the source without modifying it
+# Read the CSV
+# Preserve the original dataset
+# 1. Missing values by column
+# 2. Completely empty columns
+# 3. Rows containing missing values
+# 4. Missing-value patterns
+# 5. Check empty strings separately
+# 6. Confirm or
+# ============================================================
+# STEP 1: EXTRACT AND VERIFY THE FOUR DATASET PACKAGES
+# ============================================================
+# Search common Colab upload locations
+# ============================================================
+# STEP 2: LOAD ALL PROCESSED DATASETS
+# ============================================================
+# Locate files recursively to handle nested ZIP folders
+
+### reports\physics\all_physics_source_code.txt
+# Project paths
+# 1. Timestamp validation
+# 2. Electrical consistency
+# 3. Measured flow vs unverified calculated rate
+# 4. Summary
+# Save reports
+# Load original characterization data
+# Validate required columns
+# Timestamp and tracking calculations
+# Period-level performance
+# Command transition analysis
+# Overall validation summary
+# Save reports
+# Assign an episode ID to each contiguous low-flow run.
+# Compare only observations with similar measured current.
+# Identify transitions into and out of low-flow observations.
+# --------------------------------------------------
+# PROJECT PATHS
+# --------------------------------------------------
+# --------------------------------------------------
+# LOAD CHARACTERIZATION DATA
+# --------------------------------------------------
+# --------------------------------------------------
+# STARTUP TRANSIENT INSPECTION
+# --------------------------------------------------
+# Select observations at 5-second intervals.
+# Electrical consistency calculation.
+# Compare measured flow and unverified calculated rate.
+# --------------------------------------------------
+# SUMMARY
+# --------------------------------------------------
+# --------------------------------------------------
+# MAIN
+# --------------------------------------------------
+# Count rows with different numbers of missing variables.
+# Derived pressure difference.
+# Sign is kept as H-P1 minus O-P1, without assuming
+# a preferred operating direction.
+# The README documents CV-mean as mean cell voltage.
+# This is not total stack voltage.
+# Current density uses the README's documented
+# total active area of 50 cm².
+# This remains conditional on that specification
+# applying to the supplied experiment.
+# Include the immediately preceding and following observations.
+# Identify regime transitions.
+# Summarize the magnitude of pressure changes.
+# Start a new episode when the gap between candidate rows exceeds 5.
+# Candidate pressure events: absolute one-row change >= 0.10 bar.
+# Group candidate changes across BOTH pressure channels.
+# Define joint pressure-sign regimes.
+# Also summarize each contiguous pressure regime separately.
+# A transition occurs whenever the sign category changes.
+# Define measurement-based regions.
+# Preserve original row indices.
+# Inspect the first 100 observations.
+# Add flags without modifying the original measurements.
+# 1. Inspect local NORCE files
+# 2. Inspect reference files
+# 3. Inspect test4 columns and index
+# 4. Inspect README time-resolution statement
+# --------------------------------------------------
+# FARADAY CONSTANTS
+# --------------------------------------------------
+# --------------------------------------------------
+# THEORETICAL HYDROGEN PRODUCTION
+# --------------------------------------------------
+# --------------------------------------------------
+# NLR DATA REFERENCE CALCULATION
+# --------------------------------------------------
+# This report deliberately does not calculate a full-stack
+# production rate because NLR cell count and Faradaic
+# efficiency have not been verified.
+
+### reports\physics\nlr_physics_validation_notes.md
+# NLR Physics Layer — Validation Notes
+## Dataset
+## 1. Electrical consistency
+### Startup period
+### Steady period
+### Interpretation
+## 2. Hydrogen production-rate comparison
+## 3. Startup behaviour
+## 4. Physics modelling decisions
+## 5. Completed validation scripts
+## 6. Current-command versus actual-current tracking validation
+## 7. Additional current-tracking validation scripts
+
+5. DATA / MODEL / REPORT ARTIFACTS
+-----------------------------------------------------------------
+
+END OF INVENTORY
+=================================================================

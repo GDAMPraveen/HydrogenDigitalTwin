@@ -1,0 +1,10 @@
+dataset,PS-I-MON,H-P1,O-P1,T-ELY-CH1,CV-mean,row_count,missing_variables
+test2,0,0,0,0,0,32259,None
+test2,0,0,0,1,1,1,"T-ELY-CH1, CV-mean"
+test2,1,1,1,1,1,141,"PS-I-MON, H-P1, O-P1, T-ELY-CH1, CV-mean"
+test3,0,0,0,0,0,35680,None
+test3,0,0,0,1,0,3,T-ELY-CH1
+test3,0,0,0,1,1,5,"T-ELY-CH1, CV-mean"
+test3,1,1,1,0,0,6,"PS-I-MON, H-P1, O-P1"
+test3,1,1,1,1,1,306,"PS-I-MON, H-P1, O-P1, T-ELY-CH1, CV-mean"
+test4,0,0,0,0,0,198001,None
