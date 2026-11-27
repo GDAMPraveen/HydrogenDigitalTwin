@@ -1,0 +1,121 @@
+Experiment,Sensor,Fault,MAE,RMSE
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PSU_A_Current,clean,0.10084334543604465,0.1475250921582287
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PSU_A_Current,missing_20pct,1.580429686856259,3.983133083031318
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PSU_A_Current,gaussian_noise,0.1251882857727314,0.1770240967133106
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PSU_A_Current,stuck_sensor,5.320069397251338,6.773778059813974
+windIEA3.4-5ms-A_2-200.csv,H2E_f_PSU_A_Current,linear_drift,0.12066292144205991,0.1718448160775741
+windIEA3.4-5ms-A_2-200.csv,Power Supply Average Voltage (Vdc),clean,0.10084334543604465,0.1475250921582287
+windIEA3.4-5ms-A_2-200.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.10119483961976278,0.14814134273810164
+windIEA3.4-5ms-A_2-200.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.10108326399899968,0.1483347810168334
+windIEA3.4-5ms-A_2-200.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.12434324423588815,0.1844022960767838
+windIEA3.4-5ms-A_2-200.csv,Power Supply Average Voltage (Vdc),linear_drift,0.1009067976522905,0.14823748149455046
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PSU_A_Current,clean,0.11196819058890743,0.1854914898118637
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PSU_A_Current,missing_20pct,1.4653296041551673,3.7637666772321285
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PSU_A_Current,gaussian_noise,0.1370994521546498,0.21291589558256369
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PSU_A_Current,stuck_sensor,5.492041195315754,6.933043651033014
+windIEA3.4-5ms-A_2-400.csv,H2E_f_PSU_A_Current,linear_drift,0.1433299487601962,0.22525628558573968
+windIEA3.4-5ms-A_2-400.csv,Power Supply Average Voltage (Vdc),clean,0.11196819058890743,0.1854914898118637
+windIEA3.4-5ms-A_2-400.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.11319988607846153,0.18634998236907005
+windIEA3.4-5ms-A_2-400.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.11213489655661751,0.18531482490364617
+windIEA3.4-5ms-A_2-400.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.1823493690618716,0.2877997679855143
+windIEA3.4-5ms-A_2-400.csv,Power Supply Average Voltage (Vdc),linear_drift,0.111826788894025,0.1851712078634558
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PSU_A_Current,clean,0.09226708411347882,0.12665578188575505
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PSU_A_Current,missing_20pct,1.3576550003432806,3.3971419982145035
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PSU_A_Current,gaussian_noise,0.10664286951200662,0.14262440854843614
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PSU_A_Current,stuck_sensor,3.298300357717594,4.435209828815755
+windIEA3.4-5ms-C_2-200.csv,H2E_f_PSU_A_Current,linear_drift,0.1042285371732778,0.14199204823370373
+windIEA3.4-5ms-C_2-200.csv,Power Supply Average Voltage (Vdc),clean,0.09226708411347882,0.12665578188575505
+windIEA3.4-5ms-C_2-200.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.09355700766493244,0.12721879881246873
+windIEA3.4-5ms-C_2-200.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.09282329549176135,0.12788914803452409
+windIEA3.4-5ms-C_2-200.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.1157203392475523,0.1523471612142162
+windIEA3.4-5ms-C_2-200.csv,Power Supply Average Voltage (Vdc),linear_drift,0.09264341498818865,0.12703639374068076
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PSU_A_Current,clean,0.0893502833365053,0.14814862489299915
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PSU_A_Current,missing_20pct,1.3351089357367096,3.333207365342287
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PSU_A_Current,gaussian_noise,0.10295911808514611,0.16067855748672905
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PSU_A_Current,stuck_sensor,3.553637526206257,4.6768563071633
+windIEA3.4-5ms-C_2-400.csv,H2E_f_PSU_A_Current,linear_drift,0.10922741662301635,0.16385112340930746
+windIEA3.4-5ms-C_2-400.csv,Power Supply Average Voltage (Vdc),clean,0.0893502833365053,0.14814862489299915
+windIEA3.4-5ms-C_2-400.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.09472951740273801,0.15369536006217632
+windIEA3.4-5ms-C_2-400.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.08971193971395663,0.14879993558641952
+windIEA3.4-5ms-C_2-400.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.13398539364072534,0.20081522657098203
+windIEA3.4-5ms-C_2-400.csv,Power Supply Average Voltage (Vdc),linear_drift,0.08981302471228121,0.14893417543649895
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PSU_A_Current,clean,0.1268189709368501,0.21501244872871586
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PSU_A_Current,missing_20pct,1.945657576039468,4.7390669591596515
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PSU_A_Current,gaussian_noise,0.16229851608954368,0.26290255607033475
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PSU_A_Current,stuck_sensor,2.4354678610250766,3.799497631975372
+windIEA3.4-7ms-A_1-200.csv,H2E_f_PSU_A_Current,linear_drift,0.1722936802167703,0.28041662676195744
+windIEA3.4-7ms-A_1-200.csv,Power Supply Average Voltage (Vdc),clean,0.1268189709368501,0.21501244872871586
+windIEA3.4-7ms-A_1-200.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.12687987058552788,0.214960024267414
+windIEA3.4-7ms-A_1-200.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.1274862321228524,0.21554746242399528
+windIEA3.4-7ms-A_1-200.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.1697558971929418,0.2742609366925438
+windIEA3.4-7ms-A_1-200.csv,Power Supply Average Voltage (Vdc),linear_drift,0.12749720468491416,0.21583130163038072
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PSU_A_Current,clean,0.12571996651899195,0.18463176851967114
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PSU_A_Current,missing_20pct,1.9345451474330588,4.747001969431727
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PSU_A_Current,gaussian_noise,0.15770945755213056,0.2478153555800892
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PSU_A_Current,stuck_sensor,4.726879311327324,6.222488180642346
+windIEA3.4-7ms-A_1-400.csv,H2E_f_PSU_A_Current,linear_drift,0.16122173144339946,0.24175697348888994
+windIEA3.4-7ms-A_1-400.csv,Power Supply Average Voltage (Vdc),clean,0.12571996651899195,0.18463176851967114
+windIEA3.4-7ms-A_1-400.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.12629834550087485,0.18507238842697876
+windIEA3.4-7ms-A_1-400.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.12608169869731742,0.18515952741998384
+windIEA3.4-7ms-A_1-400.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.21061347325497257,0.2976052285535164
+windIEA3.4-7ms-A_1-400.csv,Power Supply Average Voltage (Vdc),linear_drift,0.12635651496229547,0.18518857428041494
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PSU_A_Current,clean,0.11169923177835003,0.15769824462301285
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PSU_A_Current,missing_20pct,1.9664264204152446,4.553359423151785
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PSU_A_Current,gaussian_noise,0.12590342938124655,0.1732684160911334
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PSU_A_Current,stuck_sensor,2.910722138147007,4.091804312200823
+windIEA3.4-7ms-C_1-200.csv,H2E_f_PSU_A_Current,linear_drift,0.11979689581274709,0.16513873337719873
+windIEA3.4-7ms-C_1-200.csv,Power Supply Average Voltage (Vdc),clean,0.11169923177835003,0.15769824462301285
+windIEA3.4-7ms-C_1-200.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.11192297117705759,0.15793140627613333
+windIEA3.4-7ms-C_1-200.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.11220241814342462,0.15815605524872386
+windIEA3.4-7ms-C_1-200.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.1836186894716556,0.26691746137079053
+windIEA3.4-7ms-C_1-200.csv,Power Supply Average Voltage (Vdc),linear_drift,0.11203640438694239,0.1582252902175405
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PSU_A_Current,clean,0.11710180382912982,0.3233829679957377
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PSU_A_Current,missing_20pct,1.7683413188322346,4.271452588449058
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PSU_A_Current,gaussian_noise,0.13575641900494753,0.3383756280218224
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PSU_A_Current,stuck_sensor,3.6038702428233895,4.773278312901522
+windIEA3.4-7ms-C_1-400.csv,H2E_f_PSU_A_Current,linear_drift,0.13053364074564547,0.30144848892632364
+windIEA3.4-7ms-C_1-400.csv,Power Supply Average Voltage (Vdc),clean,0.11710180382912982,0.3233829679957377
+windIEA3.4-7ms-C_1-400.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.12005751382860831,0.3241788211930739
+windIEA3.4-7ms-C_1-400.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.1173857427035292,0.3235752079706358
+windIEA3.4-7ms-C_1-400.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.20523606533838226,0.4387526215588392
+windIEA3.4-7ms-C_1-400.csv,Power Supply Average Voltage (Vdc),linear_drift,0.11716558354707708,0.3242659603843863
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PSU_A_Current,clean,0.1609557911521247,0.2625987095417393
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PSU_A_Current,missing_20pct,2.7080911230690443,6.181446394095028
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PSU_A_Current,gaussian_noise,0.1811553289865479,0.29636050309154516
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PSU_A_Current,stuck_sensor,1.2722657047914188,2.070659121036009
+windIEA3.4-9ms-A_1-200.csv,H2E_f_PSU_A_Current,linear_drift,0.1880266459585908,0.3091549058593717
+windIEA3.4-9ms-A_1-200.csv,Power Supply Average Voltage (Vdc),clean,0.1609557911521247,0.2625987095417393
+windIEA3.4-9ms-A_1-200.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.16332202395737205,0.2648300913940237
+windIEA3.4-9ms-A_1-200.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.16134693835651392,0.26288404972267054
+windIEA3.4-9ms-A_1-200.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.18794703358441897,0.30105144379795323
+windIEA3.4-9ms-A_1-200.csv,Power Supply Average Voltage (Vdc),linear_drift,0.1617386234015283,0.26244853375389987
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PSU_A_Current,clean,0.8244079812900363,1.8577381735955725
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PSU_A_Current,missing_20pct,3.0326868397093056,5.958087449506309
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PSU_A_Current,gaussian_noise,0.8340853332300054,1.8584240931488005
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PSU_A_Current,stuck_sensor,2.1007238145007716,3.367222558781329
+windIEA3.4-9ms-A_1-400.csv,H2E_f_PSU_A_Current,linear_drift,0.8364973798356572,1.8642097336325485
+windIEA3.4-9ms-A_1-400.csv,Power Supply Average Voltage (Vdc),clean,0.8244079812900363,1.8577381735955725
+windIEA3.4-9ms-A_1-400.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.8242195185864918,1.8569511434177508
+windIEA3.4-9ms-A_1-400.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.8238166718330536,1.8566510356053156
+windIEA3.4-9ms-A_1-400.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.825146388351692,1.855475113674342
+windIEA3.4-9ms-A_1-400.csv,Power Supply Average Voltage (Vdc),linear_drift,0.8270681308591865,1.8609471465289082
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PSU_A_Current,clean,0.1408784140283849,0.2892459929112008
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PSU_A_Current,missing_20pct,2.4885807907174393,5.72353419489402
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PSU_A_Current,gaussian_noise,0.1533274645904759,0.2913779122105348
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PSU_A_Current,stuck_sensor,0.7067336826518869,1.0517987843685348
+windIEA3.4-9ms-C_1-200.csv,H2E_f_PSU_A_Current,linear_drift,0.1543165569690197,0.2960685505265731
+windIEA3.4-9ms-C_1-200.csv,Power Supply Average Voltage (Vdc),clean,0.1408784140283849,0.2892459929112008
+windIEA3.4-9ms-C_1-200.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.1446358293868488,0.29255307514371
+windIEA3.4-9ms-C_1-200.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.14118278688166433,0.2893560355056828
+windIEA3.4-9ms-C_1-200.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.15187675382799504,0.29554496447627043
+windIEA3.4-9ms-C_1-200.csv,Power Supply Average Voltage (Vdc),linear_drift,0.14157103145156483,0.2900350457791712
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PSU_A_Current,clean,0.3763265221144064,0.8407772246820087
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PSU_A_Current,missing_20pct,3.234128457589905,6.844315604567552
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PSU_A_Current,gaussian_noise,0.38167977072458426,0.8237487587896747
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PSU_A_Current,stuck_sensor,1.8797345388302564,3.149827540853088
+windIEA3.4-9ms-C_1-400.csv,H2E_f_PSU_A_Current,linear_drift,0.3636892359124964,0.796715743975421
+windIEA3.4-9ms-C_1-400.csv,Power Supply Average Voltage (Vdc),clean,0.3763265221144064,0.8407772246820087
+windIEA3.4-9ms-C_1-400.csv,Power Supply Average Voltage (Vdc),missing_20pct,0.3804285334901848,0.8408310922845373
+windIEA3.4-9ms-C_1-400.csv,Power Supply Average Voltage (Vdc),gaussian_noise,0.3759467592182544,0.8402210098619501
+windIEA3.4-9ms-C_1-400.csv,Power Supply Average Voltage (Vdc),stuck_sensor,0.40954916515067746,0.8880512676595548
+windIEA3.4-9ms-C_1-400.csv,Power Supply Average Voltage (Vdc),linear_drift,0.37618902803126375,0.8400391270984987
